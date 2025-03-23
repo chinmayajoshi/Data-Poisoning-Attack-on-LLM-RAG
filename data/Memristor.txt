@@ -1,0 +1,969 @@
+Memristor
+
+العربية
+
+বাংলা
+
+Български
+
+Català
+
+Čeština
+
+Dansk
+
+Deutsch
+
+Eesti
+
+Español
+
+Euskara
+
+فارسی
+
+Français
+
+한국어
+
+Bahasa Indonesia
+
+Italiano
+
+עברית
+
+Magyar
+
+Nederlands
+
+日本語
+
+Norsk bokmål
+
+Polski
+
+Português
+
+Română
+
+Русский
+
+Simple English
+
+Slovenčina
+
+Slovenščina
+
+Српски / srpski
+
+Srpskohrvatski / српскохрватски
+
+Suomi
+
+Svenska
+
+தமிழ்
+
+ไทย
+
+Türkçe
+
+Українська
+
+Tiếng Việt
+
+中文
+
+Edit links
+
+From Wikipedia, the free encyclopedia
+
+Nonlinear two-terminal fundamental circuit element
+
+Not to be confused with Memistor or Memtransistor.
+
+Memristor developed by the University of Illinois at Urbana-Champaign and National Energy Technology Laboratory Working principle ‍ Relating electric charge and magnetic flux linkage Inventor Leon Chua Invention year 1971 ; 54 years ago ( 1971 ) Number of terminals 2 Linear? No Electronic symbol
+
+A memristor (/ˈmɛmrɪstər/; a portmanteau of memory resistor) is a non-linear two-terminal electrical component relating electric charge and magnetic flux linkage. It was described and named in 1971 by Leon Chua, completing a theoretical quartet of fundamental electrical components which also comprises the resistor, capacitor and inductor.[1]
+
+Chua and Kang later generalized the concept to memristive systems.[2] Such a system comprises a circuit, of multiple conventional components, which mimics key properties of the ideal memristor component and is also commonly referred to as a memristor. Several such memristor system technologies have been developed, notably ReRAM.
+
+The identification of memristive properties in electronic devices has attracted controversy. Experimentally, the ideal memristor has yet to be demonstrated.[3][4]
+
+As a fundamental electrical component
+
+[edit]
+
+Chua in his 1971 paper identified a theoretical symmetry between the non-linear resistor (voltage vs. current), non-linear capacitor (voltage vs. charge), and non-linear inductor (magnetic flux linkage vs. current). From this symmetry he inferred the characteristics of a fourth fundamental non-linear circuit element, linking magnetic flux and charge, which he called the memristor. In contrast to a linear (or non-linear) resistor, the memristor has a dynamic relationship between current and voltage, including a memory of past voltages or currents. Other scientists had proposed dynamic memory resistors such as the memistor of Bernard Widrow, but Chua introduced a mathematical generality.
+
+Derivation and characteristics
+
+[edit]
+
+The memristor was originally defined in terms of a non-linear functional relationship between magnetic flux linkage Φm(t) and the amount of electric charge that has flowed, q(t):[1]
+
+{\displaystyle f(\mathrm {\Phi } _{\mathrm {m} }(t),q(t))=0}
+
+The magnetic flux linkage, Φm, is generalized from the circuit characteristic of an inductor. It does not represent a magnetic field here. Its physical meaning is discussed below. The symbol Φm may be regarded as the integral of voltage over time.[5]
+
+In the relationship between Φm and q, the derivative of one with respect to the other depends on the value of one or the other, and so each memristor is characterized by its memristance function describing the charge-dependent rate of change of flux with charge:
+
+{\displaystyle M(q)={\frac {\mathrm {d} \Phi _{\rm {m}}}{\mathrm {d} q}}\,.}
+
+Substituting the flux as the time integral of the voltage, and charge as the time integral of current, the more convenient forms are:
+
+{\displaystyle M(q(t))={\cfrac {\mathrm {d} \Phi _{\rm {}}/\mathrm {d} t}{\mathrm {d} q/\mathrm {d} t}}={\frac {V(t)}{I(t)}}\,.}
+
+To relate the memristor to the resistor, capacitor, and inductor, it is helpful to isolate the term M(q), which characterizes the device, and write it as a differential equation.
+
+Device Symbol Characteristic property Units Unit ratio (V, A, C, Wb) Differential equation Resistor R Resistance ohm ( Ω ) volts per ampere ( V / A ) R = d V / d I Capacitor C Capacitance farad ( F ) coulombs per volt ( C / V ) C = d q / d V Inductor L Inductance henry ( H ) webers per ampere ( Wb / A ) L = dΦ m / d I Memristor M Memristance ohm ( Ω ) webers per coulomb ( Wb / C ) M = dΦ m / d q
+
+The above table covers all meaningful ratios of differentials of I, q, Φm, and V. No device can relate dI to dq, or dΦm to dV, because I is the time derivative of q and Φm is the integral of V with respect to time.
+
+It can be inferred from this that memristance is charge-dependent resistance. If M(q(t)) is a constant, then we obtain Ohm's law, R(t) = V(t)/I(t). If M(q(t)) is nontrivial, however, the equation is not equivalent because q(t) and M(q(t)) can vary with time. Solving for voltage as a function of time produces
+
+{\displaystyle V(t)=\ M(q(t))I(t)\,.}
+
+This equation reveals that memristance defines a linear relationship between current and voltage, as long as M does not vary with charge. Nonzero current implies time varying charge. Alternating current, however, may reveal the linear dependence in circuit operation by inducing a measurable voltage without net charge movement—as long as the maximum change in q does not cause much change in M.
+
+Furthermore, the memristor is static if no current is applied. If I(t) = 0, we find V(t) = 0 and M(t) is constant. This is the essence of the memory effect.
+
+Analogously, we can define a W(ϕ(t)) as memductance:[1]
+
+{\displaystyle i(t)=W(\phi (t))v(t)\,.}
+
+The power consumption characteristic recalls that of a resistor, I2R:
+
+{\displaystyle P(t)=\ I(t)V(t)=\ I^{2}(t)M(q(t))\,.}
+
+As long as M(q(t)) varies little, such as under alternating current, the memristor will appear as a constant resistor. If M(q(t)) increases rapidly, however, current and power consumption will quickly stop.
+
+M(q) is physically restricted to be positive for all values of q (assuming the device is passive and does not become superconductive at some q). A negative value would mean that it would perpetually supply energy when operated with alternating current.
+
+Modelling and validation
+
+[edit]
+
+In order to understand the nature of memristor function, some knowledge of fundamental circuit theoretic concepts is useful, starting with the concept of device modeling.[6]
+
+Engineers and scientists seldom analyze a physical system in its original form. Instead, they construct a model which approximates the behaviour of the system. By analyzing the behaviour of the model, they hope to predict the behaviour of the actual system. The primary reason for constructing models is that physical systems are usually too complex to be amenable to a practical analysis.
+
+In the 20th century, work was done on devices where researchers did not recognize the memristive characteristics. This has raised the suggestion that such devices should be recognised as memristors.[6] Pershin and Di Ventra[3] have proposed a test that can help to resolve some of the long-standing controversies about whether an ideal memristor does actually exist or is a purely mathematical concept.
+
+The rest of this article primarily addresses memristors as related to ReRAM devices, since the majority of work since 2008 has been concentrated in this area.
+
+Superconducting memristor component
+
+[edit]
+
+Dr. Paul Penfield, in a 1974 MIT technical report[7] mentions the memristor in connection with Josephson junctions. This was an early use of the word "memristor" in the context of a circuit device.
+
+One of the terms in the current through a Josephson junction is of the form:
+
+{\displaystyle {\begin{aligned}i_{M}(v)&=\epsilon \cos(\phi _{0})v\\&=W(\phi _{0})v\end{aligned}}}
+
+where ϵ is a constant based on the physical superconducting materials, v is the voltage across the junction and iM is the current through the junction.
+
+Through the late 20th century, research regarding this phase-dependent conductance in Josephson junctions was carried out.[8][9][10][11] A more comprehensive approach to extracting this phase-dependent conductance appeared with Peotta and Di Ventra's seminal paper in 2014.[12]
+
+Memristor circuits
+
+[edit]
+
+Due to the practical difficulty of studying the ideal memristor, we will discuss other electrical devices which can be modelled using memristors. For a mathematical description of a memristive device (systems), see § Theory.
+
+A discharge tube can be modelled as a memristive device, with resistance being a function of the number of conduction electrons ne.[2]
+
+{\displaystyle {\begin{aligned}v_{\mathrm {M} }&=R(n_{\mathrm {e} })i_{\mathrm {M} }\\{\frac {\mathrm {d} n_{\mathrm {e} }}{\mathrm {d} t}}&=\beta n+\alpha R(n_{\mathrm {e} })i_{\mathrm {M} }^{2}\end{aligned}}}
+
+vM is the voltage across the discharge tube, iM is the current flowing through it, andne is the number of conduction electrons. A simple memristance function is R(ne) = F/ne. The parameters α, β, and F depend on the dimensions of the tube and the gas fillings. An experimental identification of memristive behaviour is the "pinched hysteresis loop" in the v-i plane.[a][13][14]
+
+Thermistors can be modeled as memristive devices:[14]
+
+{\displaystyle {\begin{aligned}v&=R_{0}(T_{0})\exp \left[\beta \left({\frac {1}{T}}-{\frac {1}{T_{0}}}\right)\right]i\\&\equiv R(T)i\\{\frac {\mathrm {d} T}{\mathrm {d} t}}&={\frac {1}{C}}\left[-\delta \cdot (T-T_{0})+R(T)i^{2}\right]\end{aligned}}}
+
+β is a material constant, T is the absolute body temperature of the thermistor, T0 is the ambient temperature (both temperatures in Kelvin), R0(T0) denotes the cold temperature resistance at T = T0, C is the heat capacitance and δ is the dissipation constant for the thermistor.
+
+A fundamental phenomenon that has hardly been studied is memristive behaviour in p-n junctions.[15] The memristor plays a crucial role in mimicking the charge storage effect in the diode base, and is also responsible for the conductivity modulation phenomenon (that is so important during forward transients).
+
+Criticisms
+
+[edit]
+
+In 2008, a team at HP Labs found experimental evidence for the Chua's memristor based on an analysis of a thin film of titanium dioxide, thus connecting the operation of ReRAM devices to the memristor concept. According to HP Labs, the memristor would operate in the following way: the memristor's electrical resistance is not constant but depends on the current that had previously flowed through the device, i.e., its present resistance depends on how much electric charge has previously flowed through it and in what direction; the device remembers its history—the so-called non-volatility property.[16] When the electric power supply is turned off, the memristor remembers its most recent resistance until it is turned on again.[17][18]
+
+The HP Labs result was published in the scientific journal Nature.[17][19] Following this claim, Leon Chua has argued that the memristor definition could be generalized to cover all forms of two-terminal non-volatile memory devices based on resistance switching effects.[16] Chua also argued that the memristor is the oldest known circuit element, with its effects predating the resistor, capacitor, and inductor.[20] However, there are doubts as to whether a memristor can actually exist in physical reality.[21][22][23][24] Additionally, some experimental evidence contradicts Chua's generalization since a non-passive nanobattery effect is observable in resistance switching memory.[25] A simple test has been proposed by Pershin and Di Ventra[3] to analyze whether such an ideal or generic memristor does actually exist or is a purely mathematical concept. Up to now,[when?] there seems to be no experimental resistance switching device (ReRAM) which can pass the test.[3][4]
+
+These devices are intended for applications in nanoelectronic memory devices, computer logic, and neuromorphic/neuromemristive computer architectures.[26][27] In 2013, Hewlett-Packard CTO Martin Fink suggested that memristor memory may become commercially available as early as 2018.[28] In March 2012, a team of researchers from HRL Laboratories and the University of Michigan announced the first functioning memristor array built on a CMOS chip.[29]
+
+According to the original 1971 definition, the memristor is the fourth fundamental circuit element, forming a non-linear relationship between electric charge and magnetic flux linkage. In 2011, Chua argued for a broader definition that includes all two-terminal non-volatile memory devices based on resistance switching.[16] Williams argued that MRAM, phase-change memory and ReRAM are memristor technologies.[32] Some researchers argued that biological structures such as blood[33] and skin[34][35] fit the definition. Others argued that the memory device under development by HP Labs and other forms of ReRAM are not memristors, but rather part of a broader class of variable-resistance systems,[36] and that a broader definition of memristor is a scientifically unjustifiable land grab that favored HP's memristor patents.[37]
+
+In 2011, Meuffels and Schroeder noted that one of the early memristor papers included a mistaken assumption regarding ionic conduction.[38] In 2012, Meuffels and Soni discussed some fundamental issues and problems in the realization of memristors.[21] They indicated inadequacies in the electrochemical modeling presented in the Nature article "The missing memristor found"[17] because the impact of concentration polarization effects on the behavior of metal−TiO2−x−metal structures under voltage or current stress was not considered.[25]
+
+In a kind of thought experiment, Meuffels and Soni[21] furthermore revealed a severe inconsistency: If a current-controlled memristor with the so-called non-volatility property[16] exists in physical reality, its behavior would violate Landauer's principle, which places a limit on the minimum amount of energy required to change "information" states of a system. This critique was finally adopted by Di Ventra and Pershin[22] in 2013.
+
+Within this context, Meuffels and Soni[21] pointed to a fundamental thermodynamic principle: Non-volatile information storage requires the existence of free-energy barriers that separate the distinct internal memory states of a system from each other; otherwise, one would be faced with an "indifferent" situation, and the system would arbitrarily fluctuate from one memory state to another just under the influence of thermal fluctuations. When unprotected against thermal fluctuations, the internal memory states exhibit some diffusive dynamics, which causes state degradation.[22] The free-energy barriers must therefore be high enough to ensure a low bit-error probability of bit operation.[39] Consequently, there is always a lower limit of energy requirement – depending on the required bit-error probability – for intentionally changing a bit value in any memory device.[39][40]
+
+In the general concept of memristive system the defining equations are (see § Theory):
+
+{\displaystyle {\begin{aligned}y(t)&=g(\mathbf {x} ,u,t)u(t),\\{\dot {\mathbf {x} }}&=f(\mathbf {x} ,u,t),\end{aligned}}}
+
+where u(t) is an input signal, and y(t) is an output signal. The vector
+
+{\displaystyle \mathbf {x} }
+
+represents a set of n state variables describing the different internal memory states of the device.
+
+{\displaystyle {\dot {\mathbf {x} }}}
+
+is the time-dependent rate of change of the state vector
+
+{\displaystyle \mathbf {x} }
+
+with time.
+
+When one wants to go beyond mere curve fitting and aims at a real physical modeling of non-volatile memory elements, e.g., resistive random-access memory devices, one has to keep an eye on the aforementioned physical correlations. To check the adequacy of the proposed model and its resulting state equations, the input signal u(t) can be superposed with a stochastic term ξ(t), which takes into account the existence of inevitable thermal fluctuations. The dynamic state equation in its general form then finally reads:
+
+{\displaystyle {\dot {\mathbf {x} }}=f(\mathbf {x} ,u(t)+\xi (t),t),}
+
+where ξ(t) is, e.g., white Gaussian current or voltage noise. On the basis of an analytical or numerical analysis of the time-dependent response of the system towards noise, a decision on the physical validity of the modeling approach can be made, e.g., whether the system would be able to retain its memory states in power-off mode.
+
+Such an analysis was performed by Di Ventra and Pershin[22] with regard to the genuine current-controlled memristor. As the proposed dynamic state equation provides no physical mechanism enabling such a memristor to cope with inevitable thermal fluctuations, a current-controlled memristor would erratically change its state in course of time just under the influence of current noise.[22][41] Di Ventra and Pershin[22] thus concluded that memristors whose resistance (memory) states depend solely on the current or voltage history would be unable to protect their memory states against unavoidable Johnson–Nyquist noise and permanently suffer from information loss, a so-called "stochastic catastrophe". A current-controlled memristor can thus not exist as a solid-state device in physical reality.
+
+The above-mentioned thermodynamic principle furthermore implies that the operation of two-terminal non-volatile memory devices (e.g. "resistance-switching" memory devices (ReRAM)) cannot be associated with the memristor concept, i.e., such devices cannot by itself remember their current or voltage history. Transitions between distinct internal memory or resistance states are of probabilistic nature. The probability for a transition from state {i} to state {j} depends on the height of the free-energy barrier between both states. The transition probability can thus be influenced by suitably driving the memory device, i.e., by "lowering" the free-energy barrier for the transition {i}→{j} by means of, for example, an externally applied bias.
+
+A "resistance switching" event can simply be enforced by setting the external bias to a value above a certain threshold value. This is the trivial case, i.e., the free-energy barrier for the transition {i}→{j} is reduced to zero. In case one applies biases below the threshold value, there is still a finite probability that the device will switch in course of time (triggered by a random thermal fluctuation), but – as one is dealing with probabilistic processes – it is impossible to predict when the switching event will occur. That is the basic reason for the stochastic nature of all observed resistance-switching (ReRAM) processes. If the free-energy barriers are not high enough, the memory device can even switch without having to do anything.
+
+When a two-terminal non-volatile memory device is found to be in a distinct resistance state {j} , there exists therefore no physical one-to-one relationship between its present state and its foregoing voltage history. The switching behavior of individual non-volatile memory devices thus cannot be described within the mathematical framework proposed for memristor/memristive systems.
+
+An extra thermodynamic curiosity arises from the definition that memristors/memristive devices should energetically act like resistors. The instantaneous electrical power entering such a device is completely dissipated as Joule heat to the surrounding, so no extra energy remains in the system after it has been brought from one resistance state xi to another one xj. Thus, the internal energy of the memristor device in state xi, U(V, T, xi), would be the same as in state xj, U(V, T, xj), even though these different states would give rise to different device's resistances, which itself must be caused by physical alterations of the device's material.
+
+Other researchers noted that memristor models based on the assumption of linear ionic drift do not account for asymmetry between set time (high-to-low resistance switching) and reset time (low-to-high resistance switching) and do not provide ionic mobility values consistent with experimental data. Non-linear ionic-drift models have been proposed to compensate for this deficiency.[42]
+
+A 2014 article from researchers of ReRAM concluded that Strukov's (HP's) initial/basic memristor modeling equations do not reflect the actual device physics well, whereas subsequent (physics-based) models such as Pickett's model or Menzel's ECM model (Menzel is a co-author of that article) have adequate predictability, but are computationally prohibitive. As of 2014, the search continues for a model that balances these issues; the article identifies Chang's and Yakopcic's models as potentially good compromises.[43]
+
+Martin Reynolds, an electrical engineering analyst with research outfit Gartner, commented that while HP was being sloppy in calling their device a memristor, critics were being pedantic in saying that it was not a memristor.[44]
+
+Experimental tests
+
+[edit]
+
+Chua suggested experimental tests to determine if a device may properly be categorized as a memristor:[2]
+
+The Lissajous curve in the voltage–current plane is a pinched hysteresis loop when driven by any bipolar periodic voltage or current without respect to initial conditions.
+
+The area of each lobe of the pinched hysteresis loop shrinks as the frequency of the forcing signal increases.
+
+As the frequency tends to infinity, the hysteresis loop degenerates to a straight line through the origin, whose slope depends on the amplitude and shape of the forcing signal.
+
+According to Chua[45][46] all resistive switching memories including ReRAM, MRAM and phase-change memory meet these criteria and are memristors. However, the lack of data for the Lissajous curves over a range of initial conditions or over a range of frequencies complicates assessments of this claim.
+
+Experimental evidence shows that redox-based resistance memory (ReRAM) includes a nanobattery effect that is contrary to Chua's memristor model. This indicates that the memristor theory needs to be extended or corrected to enable accurate ReRAM modeling.[25]
+
+Theory
+
+[edit]
+
+In 2008, researchers from HP Labs introduced a model for a memristance function based on thin films of titanium dioxide.[17] For Ron ≪ Roff the memristance function was determined to be
+
+{\displaystyle M(q(t))=R_{\mathrm {off} }\cdot \left(1-{\frac {\mu _{v}R_{\mathrm {on} }}{D^{2}}}q(t)\right)}
+
+where Roff represents the high resistance state, Ron represents the low resistance state, μv represents the mobility of dopants in the thin film, and D represents the film thickness. The HP Labs group noted that "window functions" were necessary to compensate for differences between experimental measurements and their memristor model due to non-linear ionic drift and boundary effects.
+
+Operation as a switch
+
+[edit]
+
+For some memristors, applied current or voltage causes substantial change in resistance. Such devices may be characterized as switches by investigating the time and energy that must be spent to achieve a desired change in resistance. This assumes that the applied voltage remains constant. Solving for energy dissipation during a single switching event reveals that for a memristor to switch from Ron to Roff in time Ton to Toff, the charge must change by ΔQ = Qon − Qoff.
+
+{\displaystyle {\begin{aligned}E_{\mathrm {switch} }&=V^{2}\int _{T_{\mathrm {off} }}^{T_{\mathrm {on} }}{\frac {\mathrm {d} t}{M(q(t))}}\\&=V^{2}\int _{Q_{\mathrm {off} }}^{Q_{\mathrm {on} }}{\frac {\mathrm {d} q}{I(q)M(q)}}\\&=V^{2}\int _{Q_{\mathrm {off} }}^{Q_{\mathrm {on} }}{\frac {\mathrm {d} q}{V(q)}}\\&=V\Delta Q\end{aligned}}}
+
+Substituting V = I(q)M(q), and then ∫ dq/V = ∆Q/V for constant V to produces the final expression. This power characteristic differs fundamentally from that of a metal oxide semiconductor transistor, which is capacitor-based. Unlike the transistor, the final state of the memristor in terms of charge does not depend on bias voltage.
+
+The type of memristor described by Williams ceases to be ideal after switching over its entire resistance range, creating hysteresis, also called the "hard-switching regime".[17] Another kind of switch would have a cyclic M(q) so that each off-on event would be followed by an on-off event under constant bias. Such a device would act as a memristor under all conditions, but would be less practical.
+
+Memristive systems
+
+[edit]
+
+In the more general concept of an n-th order memristive system the defining equations are
+
+{\displaystyle {\begin{aligned}y(t)&=g({\textbf {x}},u,t)u(t),\\{\dot {\textbf {x}}}&=f({\textbf {x}},u,t)\end{aligned}}}
+
+where u(t) is an input signal, y(t) is an output signal, the vector x represents a set of n state variables describing the device, and g and f are continuous functions. For a current-controlled memristive system the signal u(t) represents the current signal i(t) and the signal y(t) represents the voltage signal v(t). For a voltage-controlled memristive system the signal u(t) represents the voltage signal v(t) and the signal y(t) represents the current signal i(t).
+
+The pure memristor is a particular case of these equations, namely when x depends only on charge (x = q) and since the charge is related to the current via the time derivative dq/dt = i(t). Thus for pure memristors f (i.e. the rate of change of the state) must be equal or proportional to the current i(t).
+
+Pinched hysteresis
+
+[edit]
+
+One of the resulting properties of memristors and memristive systems is the existence of a pinched hysteresis effect.[47] For a current-controlled memristive system, the input u(t) is the current i(t), the output y(t) is the voltage v(t), and the slope of the curve represents the electrical resistance. The change in slope of the pinched hysteresis curves demonstrates switching between different resistance states which is a phenomenon central to ReRAM and other forms of two-terminal resistance memory. At high frequencies, memristive theory predicts the pinched hysteresis effect will degenerate, resulting in a straight line representative of a linear resistor. It has been proven that some types of non-crossing pinched hysteresis curves (denoted Type-II) cannot be described by memristors.[48]
+
+Memristive networks and mathematical models of circuit interactions
+
+[edit]
+
+The concept of memristive networks was first introduced by Leon Chua in his 1965 paper "Memristive Devices and Systems." Chua proposed the use of memristive devices as a means of building artificial neural networks that could simulate the behavior of the human brain. In fact, memristive devices in circuits have complex interactions due to Kirchhoff's laws. A memristive network is a type of artificial neural network that is based on memristive devices, which are electronic components that exhibit the property of memristance. In a memristive network, the memristive devices are used to simulate the behavior of neurons and synapses in the human brain. The network consists of layers of memristive devices, each of which is connected to other layers through a set of weights. These weights are adjusted during the training process, allowing the network to learn and adapt to new input data. One advantage of memristive networks is that they can be implemented using relatively simple and inexpensive hardware, making them an attractive option for developing low-cost artificial intelligence systems. They also have the potential to be more energy efficient than traditional artificial neural networks, as they can store and process information using less power. However, the field of memristive networks is still in the early stages of development, and more research is needed to fully understand their capabilities and limitations. For the simplest model with only memristive devices with voltage generators in series, there is an exact and in closed form equation (Caravelli–Traversa–Di Ventra equation, CTDV)[49] which describes the evolution of the internal memory of the network for each device. For a simple memristor model (but not realistic) of a switch between two resistance values, given by the Williams-Strukov model
+
+{\displaystyle R(x)=R_{off}(1-x)+R_{on}x}
+
+, with
+
+{\displaystyle dx/dt=I/\beta -\alpha x}
+
+, there is a set of nonlinearly coupled differential equations that takes the form:
+
+where
+
+{\displaystyle X}
+
+is the diagonal matrix with elements
+
+{\displaystyle x_{i}}
+
+on the diagonal,
+
+{\displaystyle \alpha ,\beta ,\chi }
+
+are based on the memristors physical parameters. The vector
+
+{\displaystyle {\vec {S}}}
+
+is the vector of voltage generators in series to the memristors. The circuit topology enters only in the projector operator
+
+{\displaystyle \Omega ^{2}=\Omega }
+
+, defined in terms of the cycle matrix of the graph. The equation provides a concise mathematical description of the interactions due to Kirchhoff 's laws. Interestingly, the equation shares many properties in common with a Hopfield network, such as the existence of Lyapunov functions and classical tunnelling phenomena.[50] In the context of memristive networks, the CTD equation may be used to predict the behavior of memristive devices under different operating conditions, or to design and optimize memristive circuits for specific applications.
+
+Extended systems
+
+[edit]
+
+Some researchers have raised the question of the scientific legitimacy of HP's memristor models in explaining the behavior of ReRAM.[36][37] and have suggested extended memristive models to remedy perceived deficiencies.[25]
+
+One example[51] attempts to extend the memristive systems framework by including dynamic systems incorporating higher-order derivatives of the input signal u(t) as a series expansion
+
+where m is a positive integer, u(t) is an input signal, y(t) is an output signal, the vector x represents a set of n state variables describing the device, and the functions g and f are continuous functions. This equation produces the same zero-crossing hysteresis curves as memristive systems but with a different frequency response than that predicted by memristive systems.
+
+Another example suggests including an offset value
+
+{\displaystyle a}
+
+to account for an observed nanobattery effect which violates the predicted zero-crossing pinched hysteresis effect.[25]
+
+Implementation of hysteretic current-voltage memristors
+
+[edit]
+
+There exist implementations of memristors with a hysteretic current-voltage curve or with both hysteretic current-voltage curve and hysteretic flux-charge curve [arXiv:2403.20051]. Memristors with hysteretic current-voltage curve use a resistance dependent on the history of the current and voltage and bode well for the future of memory technology due to their simple structure, high energy efficiency, and high integration [DOI: 10.1002/aisy.202200053].
+
+Titanium dioxide memristor
+
+[edit]
+
+Interest in the memristor revived when an experimental solid-state version was reported by R. Stanley Williams of Hewlett Packard in 2007.[52][53][54] The article was the first to demonstrate that a solid-state device could have the characteristics of a memristor based on the behavior of nanoscale thin films. The device neither uses magnetic flux as the theoretical memristor suggested, nor stores charge as a capacitor does, but instead achieves a resistance dependent on the history of current.
+
+Although not cited in HP's initial reports on their TiO2 memristor, the resistance switching characteristics of titanium dioxide were originally described in the 1960s.[55]
+
+The HP device is composed of a thin (50 nm) titanium dioxide film between two 5 nm thick electrodes, one titanium, the other platinum. Initially, there are two layers to the titanium dioxide film, one of which has a slight depletion of oxygen atoms. The oxygen vacancies act as charge carriers, meaning that the depleted layer has a much lower resistance than the non-depleted layer. When an electric field is applied, the oxygen vacancies drift (see Fast-ion conductor), changing the boundary between the high-resistance and low-resistance layers. Thus the resistance of the film as a whole is dependent on how much charge has been passed through it in a particular direction, which is reversible by changing the direction of current.[17] Since the HP device displays fast-ion conduction at nanoscale, it is considered a nanoionic device.[56]
+
+Memristance is displayed only when both the doped layer and depleted layer contribute to resistance. When enough charge has passed through the memristor that the ions can no longer move, the device enters hysteresis. It ceases to integrate q=∫I dt, but rather keeps q at an upper bound and M fixed, thus acting as a constant resistor until current is reversed.
+
+Memory applications of thin-film oxides had been an area of active investigation for some time. IBM published an article in 2000 regarding structures similar to that described by Williams.[57] Samsung has a U.S. patent for oxide-vacancy based switches similar to that described by Williams.[58]
+
+In April 2010, HP labs announced that they had practical memristors working at 1 ns (~1 GHz) switching times and 3 nm by 3 nm sizes,[59] which bodes well for the future of the technology.[60] At these densities it could easily rival the current sub-25 nm flash memory technology.
+
+Silicon dioxide memristor
+
+[edit]
+
+It seems that memristance has been reported in nanoscale thin films of silicon dioxide as early as the 1960s .[61]
+
+However, hysteretic conductance in silicon was associated to memristive effects only in 2009.[62]
+
+More recently, beginning in 2012, Tony Kenyon, Adnan Mehonic and their group clearly demonstrated that the resistive switching in silicon oxide thin films is due to the formation of oxygen vacancy filaments in defect-engineered silicon dioxide, having probed directly the movement of oxygen under electrical bias, and imaged the resultant conductive filaments using conductive atomic force microscopy. [63]
+
+Polymeric memristor
+
+[edit]
+
+In 2004, Krieger and Spitzer described dynamic doping of polymer and inorganic dielectric-like materials that improved the switching characteristics and retention required to create functioning nonvolatile memory cells.[64] They used a passive layer between electrode and active thin films, which enhanced the extraction of ions from the electrode. It is possible to use fast-ion conductor as this passive layer, which allows a significant reduction of the ionic extraction field.
+
+In July 2008, Erokhin and Fontana claimed to have developed a polymeric memristor before the more recently announced titanium dioxide memristor.[65]
+
+In 2010, Alibart, Gamrat, Vuillaume et al.[66] introduced a new hybrid organic/nanoparticle device (the NOMFET : Nanoparticle Organic Memory Field Effect Transistor), which behaves as a memristor[67] and which exhibits the main behavior of a biological spiking synapse. This device, also called a synapstor (synapse transistor), was used to demonstrate a neuro-inspired circuit (associative memory showing a pavlovian learning).[68]
+
+In 2012, Crupi, Pradhan and Tozer described a proof of concept design to create neural synaptic memory circuits using organic ion-based memristors.[69] The synapse circuit demonstrated long-term potentiation for learning as well as inactivity based forgetting. Using a grid of circuits, a pattern of light was stored and later recalled. This mimics the behavior of the V1 neurons in the primary visual cortex that act as spatiotemporal filters that process visual signals such as edges and moving lines.
+
+In 2012, Erokhin and co-authors have demonstrated a stochastic three-dimensional matrix with capabilities for learning and adapting based on polymeric memristor.[70]
+
+Layered memristor
+
+[edit]
+
+In 2014, Bessonov et al. reported a flexible memristive device comprising a MoOx/MoS2 heterostructure sandwiched between silver electrodes on a plastic foil.[71] The fabrication method is entirely based on printing and solution-processing technologies using two-dimensional layered transition metal dichalcogenides (TMDs). The memristors are mechanically flexible, optically transparent and produced at low cost. The memristive behaviour of switches was found to be accompanied by a prominent memcapacitive effect. High switching performance, demonstrated synaptic plasticity and sustainability to mechanical deformations promise to emulate the appealing characteristics of biological neural systems in novel computing technologies.
+
+Atomristor
+
+[edit]
+
+Atomristor is defined as the electrical devices showing memristive behavior in atomically thin nanomaterials or atomic sheets. In 2018, Ge and Wu et al.[72] in the Akinwande group at the University of Texas, first reported a universal memristive effect in single-layer TMD (MX2, M = Mo, W; and X = S, Se) atomic sheets based on vertical metal-insulator-metal (MIM) device structure. The work was later extended to monolayer hexagonal boron nitride, which is the thinnest memory material of around 0.33 nm.[73] These atomristors offer forming-free switching and both unipolar and bipolar operation. The switching behavior is found in single-crystalline and poly-crystalline films, with various conducting electrodes (gold, silver and graphene). Atomically thin TMD sheets are prepared via CVD/MOCVD, enabling low-cost fabrication. Afterwards, taking advantage of the low "on" resistance and large on/off ratio, a high-performance zero-power RF switch is proved based on MoS2 or h-BN atomristors, indicating a new application of memristors for 5G, 6G and THz communication and connectivity systems.[74][75] In 2020, atomistic understanding of the conductive virtual point mechanism was elucidated in an article in nature nanotechnology.[76]
+
+Ferroelectric memristor
+
+[edit]
+
+The ferroelectric memristor[77] is based on a thin ferroelectric barrier sandwiched between two metallic electrodes. Switching the polarization of the ferroelectric material by applying a positive or negative voltage across the junction can lead to a two order of magnitude resistance variation: ROFF ≫ RON (an effect called Tunnel Electro-Resistance). In general, the polarization does not switch abruptly. The reversal occurs gradually through the nucleation and growth of ferroelectric domains with opposite polarization. During this process, the resistance is neither RON or ROFF, but in between. When the voltage is cycled, the ferroelectric domain configuration evolves, allowing a fine tuning of the resistance value. The ferroelectric memristor's main advantages are that ferroelectric domain dynamics can be tuned, offering a way to engineer the memristor response, and that the resistance variations are due to purely electronic phenomena, aiding device reliability, as no deep change to the material structure is involved.
+
+Carbon nanotube memristor
+
+[edit]
+
+In 2013, Ageev, Blinov et al.[78] reported observing memristor effect in structure based on vertically aligned carbon nanotubes studying bundles of CNT by scanning tunneling microscope.
+
+Later it was found[79] that CNT memristive switching is observed when a nanotube has a non-uniform elastic strain ΔL0. It was shown that the memristive switching mechanism of strained СNT is based on the formation and subsequent redistribution of non-uniform elastic strain and piezoelectric field Edef in the nanotube under the influence of an external electric field E(x,t).
+
+Biomolecular memristor
+
+[edit]
+
+Biomaterials have been evaluated for use in artificial synapses and have shown potential for application in neuromorphic systems.[80] In particular, the feasibility of using a collagen‐based biomemristor as an artificial synaptic device has been investigated,[81] whereas a synaptic device based on lignin demonstrated rising or lowering current with consecutive voltage sweeps depending on the sign of the voltage[82] furthermore a natural silk fibroin demonstrated memristive properties;[83] spin-memristive systems based on biomolecules are also being studied.[84]
+
+In 2012, Sandro Carrara and co-authors have proposed the first biomolecular memristor with aims to realize highly sensitive biosensors.[85] Since then, several memristive sensors have been demonstrated.[86]
+
+Spin memristive systems
+
+[edit]
+
+Spintronic memristor
+
+[edit]
+
+Chen and Wang, researchers at disk-drive manufacturer Seagate Technology described three examples of possible magnetic memristors.[87] In one device resistance occurs when the spin of electrons in one section of the device points in a different direction from those in another section, creating a "domain wall", a boundary between the two sections. Electrons flowing into the device have a certain spin, which alters the device's magnetization state. Changing the magnetization, in turn, moves the domain wall and changes the resistance. The work's significance led to an interview by IEEE Spectrum.[88] A first experimental proof of the spintronic memristor based on domain wall motion by spin currents in a magnetic tunnel junction was given in 2011.[89]
+
+Memristance in a magnetic tunnel junction
+
+[edit]
+
+The magnetic tunnel junction has been proposed to act as a memristor through several potentially complementary mechanisms, both extrinsic (redox reactions, charge trapping/detrapping and electromigration within the barrier) and intrinsic (spin-transfer torque).
+
+Extrinsic mechanism
+
+[edit]
+
+Based on research performed between 1999 and 2003, Bowen et al. published experiments in 2006 on a magnetic tunnel junction (MTJ) endowed with bi-stable spin-dependent states[90](resistive switching). The MTJ consists in a SrTiO3 (STO) tunnel barrier that separates half-metallic oxide LSMO and ferromagnetic metal CoCr electrodes. The MTJ's usual two device resistance states, characterized by a parallel or antiparallel alignment of electrode magnetization, are altered by applying an electric field. When the electric field is applied from the CoCr to the LSMO electrode, the tunnel magnetoresistance (TMR) ratio is positive. When the direction of electric field is reversed, the TMR is negative. In both cases, large amplitudes of TMR on the order of 30% are found. Since a fully spin-polarized current flows from the half-metallic LSMO electrode, within the Julliere model, this sign change suggests a sign change in the effective spin polarization of the STO/CoCr interface. The origin to this multistate effect lies with the observed migration of Cr into the barrier and its state of oxidation. The sign change of TMR can originate from modifications to the STO/CoCr interface density of states, as well as from changes to the tunneling landscape at the STO/CoCr interface induced by CrOx redox reactions.
+
+Reports on MgO-based memristive switching within MgO-based MTJs appeared starting in 2008[91] and 2009.[92] While the drift of oxygen vacancies within the insulating MgO layer has been proposed to describe the observed memristive effects,[92] another explanation could be charge trapping/detrapping on the localized states of oxygen vacancies[93] and its impact[94] on spintronics. This highlights the importance of understanding what role oxygen vacancies play in the memristive operation of devices that deploy complex oxides with an intrinsic property such as ferroelectricity[95] or multiferroicity.[96]
+
+Intrinsic mechanism
+
+[edit]
+
+The magnetization state of a MTJ can be controlled by Spin-transfer torque, and can thus, through this intrinsic physical mechanism, exhibit memristive behavior. This spin torque is induced by current flowing through the junction, and leads to an efficient means of achieving a MRAM. However, the length of time the current flows through the junction determines the amount of current needed, i.e., charge is the key variable.[97]
+
+The combination of intrinsic (spin-transfer torque) and extrinsic (resistive switching) mechanisms naturally leads to a second-order memristive system described by the state vector x = (x1,x2), where x1 describes the magnetic state of the electrodes and x2 denotes the resistive state of the MgO barrier. In this case the change of x1 is current-controlled (spin torque is due to a high current density) whereas the change of x2 is voltage-controlled (the drift of oxygen vacancies is due to high electric fields). The presence of both effects in a memristive magnetic tunnel junction led to the idea of a nanoscopic synapse-neuron system.[98]
+
+Spin memristive system
+
+[edit]
+
+A fundamentally different mechanism for memristive behavior has been proposed by Pershin and Di Ventra.[99][100] The authors show that certain types of semiconductor spintronic structures belong to a broad class of memristive systems as defined by Chua and Kang.[2] The mechanism of memristive behavior in such structures is based entirely on the electron spin degree of freedom which allows for a more convenient control than the ionic transport in nanostructures. When an external control parameter (such as voltage) is changed, the adjustment of electron spin polarization is delayed because of the diffusion and relaxation processes causing hysteresis. This result was anticipated in the study of spin extraction at semiconductor/ferromagnet interfaces,[101] but was not described in terms of memristive behavior. On a short time scale, these structures behave almost as an ideal memristor.[1] This result broadens the possible range of applications of semiconductor spintronics and makes a step forward in future practical applications.
+
+Self-directed channel memristor
+
+[edit]
+
+In 2017, Kris Campbell formally introduced the self-directed channel (SDC) memristor.[102] The SDC device is the first memristive device available commercially to researchers, students and electronics enthusiast worldwide.[103] The SDC device is operational immediately after fabrication. In the Ge2Se3 active layer, Ge-Ge homopolar bonds are found and switching occurs. The three layers consisting of Ge2Se3/Ag/Ge2Se3, directly below the top tungsten electrode, mix together during deposition and jointly form the silver-source layer. A layer of SnSe is between these two layers ensuring that the silver-source layer is not in direct contact with the active layer. Since silver does not migrate into the active layer at high temperatures, and the active layer maintains a high glass transition temperature of about 350 °C (662 °F), the device has significantly higher processing and operating temperatures at 250 °C (482 °F) and at least 150 °C (302 °F), respectively. These processing and operating temperatures are higher than most ion-conducting chalcogenide device types, including the S-based glasses (e.g. GeS) that need to be photodoped or thermally annealed. These factors allow the SDC device to operate over a wide range of temperatures, including long-term continuous operation at 150 °C (302 °F).
+
+Implementation of hysteretic flux-charge memristors
+
+[edit]
+
+There exist implementations of memristors with both hysteretic current-voltage curve and hysteretic flux-charge curve [arXiv:2403.20051]. Memristors with both hysteretic current-voltage curve and hysteretic flux-charge curve use a memristance dependent on the history of the flux and charge. Those memristors can merge the functionality of the arithmetic logic unit and of the memory unit without data transfer [DOI: 10.1002/adfm.201303365].
+
+Time-integrated Formingfree memristor
+
+[edit]
+
+Time-integrated Formingfree (TiF) memristors reveal a hysteretic flux-charge curve with two distinguishable branches in the positive bias range and with two distinguishable branches in the negative bias range. And TiF memristors also reveal a hysteretic current-voltage curve with two distinguishable branches in the positive bias range and with two distinguishable branches in the negative bias range. The memristance state of a TiF memristor can be controlled by both the flux and the charge [DOI: 10.1063/1.4775718]. A TiF memristor was first demonstrated by Heidemarie Schmidt and her team in 2011 [DOI: 10.1063/1.3601113]. This TiF memristor is composed of a BiFeO3 thin film between metallically conducting electrodes, one gold, the other platinum. The hysteretic flux-charge curve of the TiF memristor changes its slope continuously in one branch in the positive and in one branch in the negative bias range (write branches) and has a constant slope in one branch in the positive and in one branch in the negative bias range (read branches) [arXiv:2403.20051]. According to Leon O. Chua [Reference 1: 10.1.1.189.3614] the slope of the flux-charge curve corresponds to the memristance of a memristor or to its internal state variables. The TiF memristors can be considered as memristors with a constant memristance in the two read branches and with a reconfigurable memristance in the two write branches. The physical memristor model which describes the hysteretic current-voltage curves of the TiF memristor implements static and dynamic internal state variables in the two read branches and in the two write branches [arXiv:2402.10358].
+
+The static and dynamic internal state variables of a non-linear memristors can be used to implement operations on non-linear memristors representing linear, non-linear, and even transcendental, e.g. exponential or logarithmic, input-output functions.
+
+The transport characteristics of the TiF memristor in the small current – small voltage range are non-linear. This non-linearity well compares to the non-linear characteristics in the small current – small voltage range of the basic former and present building blocks in the arithmetic logic unit of von-Neumann computers, i.e. of vacuum tubes and of transistors. In contrast to vacuum tubes and transistors, the signal output of hysteretic flux-charge memristors, i.e. of TiF memristors, is not lost when the operation power is switched off before storing the signal output to the memory. Therefore, hysteretic flux-charge memristors are said to merge the functionality of the arithmetic logic unit and of the memory unit without data transfer [DOI: 10.1002/adfm.201303365]. The transport characteristics in the small current – small voltage range of hysteretic current-voltage memristors are linear. This explains why hysteretic current-voltage memristors are well established memory units and why they can not merge the functionality of the arithmetic logic unit and of the memory unit without data transfer [arXiv:2403.20051].
+
+Potential applications
+
+[edit]
+
+Memristors remain a laboratory curiosity, as yet made in insufficient numbers to gain any commercial applications.
+
+A potential application of memristors is in analog memories for superconducting quantum computers.[12]
+
+Computer memory and data storage types General Memory cell Memory coherence Cache coherence Memory hierarchy Memory access pattern Memory map Secondary storage MOS memory floating-gate Continuous availability Areal density (computer storage) Block (data storage) Object storage Direct-attached storage Network-attached storage Storage area network Block-level storage Single-instance storage Data Structured data Unstructured data Big data Metadata Data compression Data corruption Data cleansing Data degradation Data integrity Data security Data validation Data validation and reconciliation Data recovery Storage Data cluster Directory Shared resource File sharing File system Clustered file system Distributed file system Distributed file system for cloud Distributed data store Distributed database Database Data bank Data storage Data store Data deduplication Data structure Data redundancy Replication (computing) Memory refresh Storage record Information repository Knowledge base Computer file Object file File deletion File copying Backup Core dump Hex dump Data communication Information transfer Temporary file Copy protection Digital rights management Volume (computing) Boot sector Master boot record Volume boot record Disk array Disk image Disk mirroring Disk aggregation Disk partitioning Memory segmentation Locality of reference Logical disk Storage virtualization Virtual memory Memory-mapped file Software entropy Software rot In-memory database In-memory processing Persistence (computer science) Persistent data structure RAID Non-RAID drive architectures Memory paging Bank switching Grid computing Cloud computing Cloud storage Fog computing Edge computing Dew computing Amdahl's law Moore's law Kryder's law Volatile RAM Hardware cache CPU cache Scratchpad memory DRAM eDRAM SDRAM SGRAM DDR GDDR LPDDR QDRSRAM EDO DRAM XDR DRAM RDRAM HBM SRAM 1T-SRAM ReRAM QRAM Content-addressable memory (CAM) Computational RAM VRAM Dual-ported RAM Video RAM (dual-ported DRAM) Historical Williams–Kilburn tube (1946–1947) Delay-line memory (1947) Mellon optical memory (1951) Selectron tube (1952) Dekatron T-RAM (2009) Z-RAM (2002–2010) Non-volatile ROM Diode matrix MROM PROM EPROM EEPROM ROM cartridge Solid-state storage (SSS) Flash memory is used in: Solid-state drive (SSD) Solid-state hybrid drive (SSHD) USB flash drive IBM FlashSystem Flash Core Module Memory card Memory Stick CompactFlash PC Card MultiMediaCard SD card SIM card SmartMedia Universal Flash Storage SxS MicroP2 XQD card Programmable metallization cell NVRAM Memistor Memristor PCM ( 3D XPoint ) MRAM Electrochemical RAM (ECRAM) Nano-RAM CBRAM Early-stage NVRAM FeRAM ReRAM FeFET memory Analog recording Phonograph cylinder Phonograph record Quadruplex videotape Vision Electronic Recording Apparatus Magnetic recording Magnetic storage Magnetic tape Magnetic-tape data storage Tape drive Tape library Digital Data Storage (DDS) Videotape Videocassette Cassette tape Linear Tape-Open Betamax 8 mm video format DV MiniDV MicroMV U-matic VHS S-VHS VHS-C D-VHS Hard disk drive Optical 3D optical data storage Optical disc LaserDisc Compact Disc Digital Audio (CDDA) CD CD Video CD-R CD-RW Video CD Super Video CD Mini CD Nintendo optical discs CD-ROM Hyper CD-ROM DVD DVD+R DVD-Video DVD card DVD-RAM MiniDVD HD DVD Blu-ray Ultra HD Blu-ray Holographic Versatile Disc WORM In development CBRAM Racetrack memory NRAM Millipede memory ECRAM Patterned media Holographic data storage Electronic quantum holography 5D optical data storage DNA digital data storage Universal memory Time crystal Quantum memory UltraRAM Historical Paper data storage (1725) Punched card (1725) Punched tape (1725) Plugboard Drum memory (1932) Magnetic-core memory (1949) Plated-wire memory (1957) Core rope memory (1960s) Thin-film memory (1962) Disk pack (1962) Twistor memory (~1968) Bubble memory (~1970) Floppy disk (1971) v t e
+
+Memristors can potentially be fashioned into non-volatile solid-state memory, which could allow greater data density than hard drives with access times similar to DRAM, replacing both components.[31] HP prototyped a crossbar latch memory that can fit 100 gigabits in a square centimeter,[104] and proposed a scalable 3D design (consisting of up to 1000 layers or 1 petabit per cm3).[105] In May 2008 HP reported that its device reaches currently about one-tenth the speed of DRAM.[106] The devices' resistance would be read with alternating current so that the stored value would not be affected.[107] In May 2012, it was reported that the access time had been improved to 90 nanoseconds, which is nearly one hundred times faster than the contemporaneous Flash memory. At the same time, the energy consumption was just one percent of that consumed by Flash memory.[108]
+
+Memristors have applications in programmable logic[109] signal processing,[110] super-resolution imaging[111] physical neural networks,[112] control systems,[113] reconfigurable computing,[114] in-memory computing,[115] brain–computer interfaces[116] and RFID.[117] Memristive devices are potentially used for stateful logic implication, allowing a replacement for CMOS-based logic computation[118] Several early works have been reported in this direction.[119][120]
+
+In 2009, a simple electronic circuit[121] consisting of an LC network and a memristor was used to model experiments on adaptive behavior of unicellular organisms.[122] It was shown that subjected to a train of periodic pulses, the circuit learns and anticipates the next pulse similar to the behavior of slime molds Physarum polycephalum where the viscosity of channels in the cytoplasm responds to periodic environment changes.[122] Applications of such circuits may include, e.g., pattern recognition. The DARPA SyNAPSE project funded HP Labs, in collaboration with the Boston University Neuromorphics Lab, has been developing neuromorphic architectures which may be based on memristive systems. In 2010, Versace and Chandler described the MoNETA (Modular Neural Exploring Traveling Agent) model.[123] MoNETA is the first large-scale neural network model to implement whole-brain circuits to power a virtual and robotic agent using memristive hardware.[124] Application of the memristor crossbar structure in the construction of an analog soft computing system was demonstrated by Merrikh-Bayat and Shouraki.[125] In 2011, they showed[126] how memristor crossbars can be combined with fuzzy logic to create an analog memristive neuro-fuzzy computing system with fuzzy input and output terminals. Learning is based on the creation of fuzzy relations inspired from Hebbian learning rule.
+
+In 2013 Leon Chua published a tutorial underlining the broad span of complex phenomena and applications that memristors span and how they can be used as non-volatile analog memories and can mimic classic habituation and learning phenomena.[127]
+
+Derivative devices
+
+[edit]
+
+Memistor and memtransistor
+
+[edit]
+
+The memistor and memtransistor are transistor-based devices which include memristor function.
+
+Memcapacitors and meminductors
+
+[edit]
+
+In 2009, Di Ventra, Pershin, and Chua extended[128] the notion of memristive systems to capacitive and inductive elements in the form of memcapacitors and meminductors, whose properties depend on the state and history of the system, further extended in 2013 by Di Ventra and Pershin.[22]
+
+Memfractance and memfractor, 2nd- and 3rd-order memristor, memcapacitor and meminductor
+
+[edit]
+
+In September 2014, Mohamed-Salah Abdelouahab, Rene Lozi, and Leon Chua published a general theory of 1st-, 2nd-, 3rd-, and nth-order memristive elements using fractional derivatives.[129]
+
+History
+
+[edit]
+
+Precursors
+
+[edit]
+
+Sir Humphry Davy is said by some to have performed the first experiments which can be explained by memristor effects as long ago as 1808.[20][130] However the first device of a related nature to be constructed was the memistor (i.e. memory resistor), a term coined in 1960 by Bernard Widrow to describe a circuit element of an early artificial neural network called ADALINE. A few years later, in 1968, Argall published an article showing the resistance switching effects of TiO2 which was later claimed by researchers from Hewlett Packard to be evidence of a memristor.[55][citation needed]
+
+Theoretical description
+
+[edit]
+
+Leon Chua postulated his new two-terminal circuit element in 1971. It was characterized by a relationship between charge and flux linkage as a fourth fundamental circuit element.[1] Five years later he and his student Sung Mo Kang generalized the theory of memristors and memristive systems including a property of zero crossing in the Lissajous curve characterizing current vs. voltage behavior.[2]
+
+Twenty-first century
+
+[edit]
+
+On May 1, 2008, Strukov, Snider, Stewart, and Williams published an article in Nature identifying a link between the two-terminal resistance switching behavior found in nanoscale systems and memristors.[17]
+
+On 23 January 2009, Di Ventra, Pershin, and Chua extended the notion of memristive systems to capacitive and inductive elements, namely capacitors and inductors, whose properties depend on the state and history of the system.[128]
+
+In July 2014, the MeMOSat/LabOSat group[131] (composed of researchers from Universidad Nacional de General San Martín (Argentina), INTI, CNEA, and CONICET) put memory devices into a Low Earth orbit.[132] Since then, seven missions with different devices[133] are performing experiments in low orbits, onboard Satellogic's Ñu-Sat satellites.[134][135] [clarification needed]
+
+On 7 July 2015, Knowm Inc announced Self Directed Channel (SDC) memristors commercially.[136] These devices remain available in small numbers.
+
+On 13 July 2018, MemSat (Memristor Satellite) was launched to fly a memristor evaluation payload.[137]
+
+In 2021, Jennifer Rupp and Martin Bazant of MIT started a "Lithionics" research programme to investigate applications of lithium beyond their use in battery electrodes, including lithium oxide-based memristors in neuromorphic computing.[138][139]
+
+In May 2023, TECHiFAB GmbH [https://techifab.com/] announced TiF memristors commercially. [arXiv: 2403.20051, arXiv: 2402.10358] These TiF memristors remain available in small and medium numbers.
+
+In the September 2023 issue of Science Magazine, Chinese scientists Wenbin Zhang et al. described the development and testing of a memristor-based integrated circuit.[140]
+
+See also
+
+[edit]
+
+icon
+
+Electronics portal
+
+3D XPoint
+
+Electrical element
+
+Hybrid Memory Cube
+
+List of emerging technologies
+
+Neuromorphic engineering
+
+Trancitor
+
+Footnotes
+
+[edit]
+
+^ For an experiment that shows such a characteristic for a common discharge tube, see Bharathwaj Muthuswamy (2013-10-03). A physical memristor Lissajous figure – via YouTube. The video also illustrates how to understand deviations in the pinched hysteresis characteristics of physical memristors.
+
+References
+
+[edit]
+
+^ a b c d e Chua, L. (1971). "Memristor-The missing circuit element". IEEE Transactions on Circuit Theory. 18 (5): 507–519. CiteSeerX 10.1.1.189.3614. doi:10.1109/TCT.1971.1083337.
+
+^ a b c d e Chua, L. O.; Kang, S. M. (1976-01-01), "Memristive devices and systems", Proceedings of the IEEE, 64 (2): 209–223, doi:10.1109/PROC.1976.10092, S2CID 6008332
+
+^ a b c d Pershin, Y. V.; Di Ventra, M. (2019). "A simple test for ideal memristors". Journal of Physics D: Applied Physics. 52 (1): 01LT01. arXiv:1806.07360. Bibcode:2019JPhD...52aLT01P. doi:10.1088/1361-6463/aae680. S2CID 53506924.
+
+^ a b Kim, J.; Pershin, Y. V.; Yin, M.; Datta, T.; Di Ventra, M. (2019). "An experimental proof that resistance-switching memories are not memristors". Advanced Electronic Materials. arXiv:1909.07238. doi:10.1002/aelm.202000010. S2CID 202577242.
+
+^ Knoepfel, H. (1970), Pulsed high magnetic fields, New York: North-Holland, p. 37, Eq. (2.80)
+
+^ a b Muthuswamy, Bharathwaj; Banerjee, Santo (2019). Introduction to Nonlinear Circuits and Networks. Springer International. ISBN 978-3-319-67325-7.
+
+^ Paul L. Penfield Jr. (1974). "1. Frequency-Power Formulas for Josephson Junctions". V. Microwave and Millimeter Wave Techniques (PDF) (Report). pp. 31–32. QPR No. 113.
+
+^ Langenberg, D. N. (1974), "Physical Interpretation of the
+
+{\displaystyle \cos \phi }
+
+term and implications for detectors" (PDF), Revue de Physique Appliquée, 9: 35–40, doi:10.1051/rphysap:019740090103500
+
+^ Pedersen, N.F.; et al. (1972), "Magnetic field dependence and Q of the Josephson plasma resonance" (PDF), Physical Review B, 11 (6): 4151–4159, Bibcode:1972PhRvB...6.4151P, doi:10.1103/PhysRevB.6.4151
+
+^ Pedersen, N. F.; Finnegan, T. F.; Langenberg, D. N. (1974). "Evidence for the Existence of the Josephson Quasiparticle-Pair Interference Current". Low Temperature Physics-LT 13. Boston, MA: Springer US. pp. 268–271. doi:10.1007/978-1-4684-2688-5_52. ISBN 978-1-4684-2690-8.
+
+^ Thompson, E.D. (1973), "Power flow for Josephson Elements", IEEE Trans. Electron Devices, 20 (8): 680–683, Bibcode:1973ITED...20..680T, doi:10.1109/T-ED.1973.17728
+
+^ a b Peotta, A.; Di Ventra, M. (2014), "Superconducting Memristors", Physical Review Applied, 2 (3): 034011-1 – 034011-10, arXiv:1311.2975, Bibcode:2014PhRvP...2c4011P, doi:10.1103/PhysRevApplied.2.034011, S2CID 119020953
+
+^ Muthuswamy, B.; Jevtic, J.; Iu, H. H. C.; Subramaniam, C. K.; Ganesan, K.; Sankaranarayanan, V.; Sethupathi, K.; Kim, H.; Shah, M. Pd.; Chua, L. O. (2014). "Memristor modelling". 2014 IEEE International Symposium on Circuits and Systems (ISCAS). pp. 490–493. doi:10.1109/ISCAS.2014.6865179. ISBN 978-1-4799-3432-4. S2CID 13061426.
+
+^ a b Sah, M.; et al. (2015), "A Generic Model of Memristors with Parasitic Components", IEEE TCAS I: Regular Papers, 62 (3): 891–898
+
+^ Chua, L. O.; Tseng, C. (1974), "A memristive circuit model for p-n junction diodes", International Journal of Circuit Theory and Applications, 2 (4): 367–389, doi:10.1002/cta.4490020406
+
+^ a b c d Chua, Leon (2011-01-28). "Resistance switching memories are memristors". Applied Physics A. 102 (4): 765–783. Bibcode:2011ApPhA.102..765C. doi:10.1007/s00339-011-6264-9.
+
+^ a b c d e f g Strukov, Dmitri B.; Snider, Gregory S.; Stewart, Duncan R.; Williams, R. Stanley (2008). "The missing memristor found" (PDF). Nature. 453 (7191): 80–83. Bibcode:2008Natur.453...80S. doi:10.1038/nature06932. PMID 18451858. S2CID 4367148.
+
+^ Memristor FAQ, Hewlett-Packard, retrieved 2010-09-03
+
+^ Williams, R. S. (2008). "How We Found The Missing Memristor" (PDF). IEEE Spectrum. 45 (12): 28–35. doi:10.1109/MSPEC.2008.4687366. S2CID 27319894. Archived from the original (PDF) on 2018-03-26. Retrieved 2018-03-26.
+
+^ a b Clarke, P. (2012-05-23), "Memristor is 200 years old, say academics", EE Times, retrieved 2012-05-25
+
+^ a b c d Meuffels, P.; Soni, R. (2012). "Fundamental Issues and Problems in the Realization of Memristors". arXiv:1207.7319 [cond-mat.mes-hall].
+
+^ a b c d e f g Di Ventra, M.; Pershin, Y. V. (2013), "On the physical properties of memristive, memcapacitive and meminductive systems", Nanotechnology, 24 (25): 255201, arXiv:1302.7063, Bibcode:2013Nanot..24y5201D, CiteSeerX 10.1.1.745.8657, doi:10.1088/0957-4484/24/25/255201, PMID 23708238, S2CID 14892809
+
+^ Sundqvist, Kyle M.; Ferry, David K.; Kish, Laszlo B. (2017-11-21). "Memristor Equations: Incomplete Physics and Undefined Passivity/Activity". Fluctuation and Noise Letters. 16 (4): 1771001–519. arXiv:1703.09064. Bibcode:2017FNL....1671001S. doi:10.1142/S0219477517710018. S2CID 1408810.
+
+^ Abraham, Isaac (2018-07-20). "The case for rejecting the memristor as a fundamental circuit element". Scientific Reports. 8 (1): 10972. Bibcode:2018NatSR...810972A. doi:10.1038/s41598-018-29394-7. PMC 6054652. PMID 30030498.
+
+^ a b c d e Valov, I.; et al. (2013), "Nanobatteries in redox-based resistive switches require extension of memristor theory", Nature Communications, 4 (4): 1771, arXiv:1303.2589, Bibcode:2013NatCo...4.1771V, doi:10.1038/ncomms2784, PMC 3644102, PMID 23612312
+
+^ Marks, P. (2008-04-30), "Engineers find 'missing link' of electronics", New Scientist, retrieved 2008-04-30
+
+^ Zidan, Mohammed A.; Strachan, John Paul; Lu, Wei D. (2018-01-08). "The future of electronics based on memristive systems". Nature Electronics. 1 (1): 22–29. doi:10.1038/s41928-017-0006-8. S2CID 187510377.
+
+^ HP 100TB Memristor drives by 2018 – if you're lucky, admits tech titan, 2013-11-01
+
+^ Artificial synapses could lead to advanced computer memory and machines that mimic biological brains, HRL Laboratories, 2012-03-23, retrieved 2012-03-30
+
+^ Bush, S. (2008-05-02), "HP nano device implements memristor", Electronics Weekly
+
+^ a b Kanellos, M. (2008-04-30), "HP makes memory from a once theoretical circuit", CNET News, retrieved 2008-04-30
+
+^ Mellor, C. (2011-10-10), "HP and Hynix to produce the memristor goods by 2013", The Register, retrieved 2012-03-07
+
+^ Courtland, R. (2011-04-01). "Memristors...Made of Blood?". IEEE Spectrum. Retrieved 2012-03-07.
+
+^ Johnsen, G. K. (2011-03-24). "Memristive model of electro-osmosis in skin". Physical Review E. 83 (3): 031916. Bibcode:2011PhRvE..83c1916J. doi:10.1103/PhysRevE.83.031916. PMID 21517534. S2CID 46437206.
+
+^ McAlpine, K. (2011-03-02), "Sweat ducts make skin a memristor", New Scientist, 209 (2802): 16, Bibcode:2011NewSc.209...16M, doi:10.1016/S0262-4079(11)60481-8, retrieved 2012-03-07
+
+^ a b Clarke, P. (2012-01-16), "Memristor brouhaha bubbles under", EETimes, retrieved 2012-03-02
+
+^ a b Marks, P. (2012-02-23), "Online spat over who joins memristor club", New Scientist, retrieved 2012-03-19
+
+^ Meuffels, P.; Schroeder, H. (2011), "Comment on "Exponential ionic drift: fast switching and low volatility of thin-film memristors" by D. B. Strukov and R. S. Williams in Appl. Phys. A (2009) 94: 515–519", Applied Physics A, 105 (1): 65–67, Bibcode:2011ApPhA.105...65M, doi:10.1007/s00339-011-6578-7, S2CID 95168959
+
+^ a b Kish, Laszlo B.; Granqvist, Claes G.; Khatri, Sunil P.; Wen, He (2014). "Demons: Maxwell's demon, Szilard's engine and Landauer's erasure–dissipation". International Journal of Modern Physics: Conference Series. 33: 1460364. arXiv:1412.2166. Bibcode:2014IJMPS..3360364K. doi:10.1142/s2010194514603640. S2CID 44851287.
+
+^ Kish, L. B.; Khatri, S. P.; Granqvist, C. G.; Smulko, J. M. (2015). "Critical remarks on Landauer's principle of erasure-dissipation: Including notes on Maxwell demons and Szilard engines". 2015 International Conference on Noise and Fluctuations (ICNF). pp. 1–4. doi:10.1109/ICNF.2015.7288632. ISBN 978-1-4673-8335-6.
+
+^ Slipko, V. A.; Pershin, Y. V.; Di Ventra, M. (2013), "Changing the state of a memristive system with white noise", Physical Review E, 87 (1): 042103, arXiv:1209.4103, Bibcode:2013PhRvE..87a2103L, doi:10.1103/PhysRevE.87.012103, PMID 23410279, S2CID 2237458
+
+^ Hashem, N.; Das, S. (2012), "Switching-time analysis of binary-oxide memristors via a non-linear model" (PDF), Applied Physics Letters, 100 (26): 262106, Bibcode:2012ApPhL.100z2106H, doi:10.1063/1.4726421, archived from the original (PDF) on 2015-09-24, retrieved 2012-08-09
+
+^ Linn, E.; Siemon, A.; Waser, R.; Menzel, S. (2014-03-23). "Applicability of Well-Established Memristive Models for Simulations of Resistive Switching Devices". IEEE Transactions on Circuits and Systems I: Regular Papers. 61 (8): 2402–2410. arXiv:1403.5801. Bibcode:2014arXiv1403.5801L. doi:10.1109/TCSI.2014.2332261. S2CID 18673562.
+
+^ Garling, C. (2012-07-25), "Wonks question HP's claim to computer-memory missing link", Wired.com, retrieved 2012-09-23
+
+^ Chua, L. (2012-06-13), Memristors: Past, Present and future (PDF), archived from the original (PDF) on 2014-03-08, retrieved 2013-01-12
+
+^ Adhikari, S. P.; Sah, M. P.; Hyongsuk, K.; Chua, L. O. (2013), "Three Fingerprints of Memristor", IEEE Transactions on Circuits and Systems I, 60 (11): 3008–3021, doi:10.1109/TCSI.2013.2256171, S2CID 12665998
+
+^ Pershin, Y. V.; Di Ventra, M. (2011), "Memory effects in complex materials and nanoscale systems", Advances in Physics, 60 (2): 145–227, arXiv:1011.3053, Bibcode:2011AdPhy..60..145P, doi:10.1080/00018732.2010.544961, S2CID 119098973
+
+^ Biolek, D.; Biolek, Z.; Biolkova, V. (2011), "Pinched hysteresis loops of ideal memristors, memcapacitors and meminductors must be 'self-crossing'", Electronics Letters, 47 (25): 1385–1387, Bibcode:2011ElL....47.1385B, doi:10.1049/el.2011.2913
+
+^ Caravelli; et al. (2017). "The complex dynamics of memristive circuits: analytical results and universal slow relaxation". Physical Review E. 95 (2): 022140. arXiv:1608.08651. Bibcode:2017PhRvE..95b2140C. doi:10.1103/PhysRevE.95.022140. PMID 28297937. S2CID 6758362.
+
+^ Caravelli; et al. (2021). "Global minimization via classical tunnelling assisted by collective force field formation". Science Advances. 7 (52): 022140. arXiv:1608.08651. Bibcode:2021SciA....7.1542C. doi:10.1126/sciadv.abh1542. PMID 28297937. S2CID 231847346.
+
+^ Mouttet, B. (2012). "Memresistors and non-memristive zero-crossing hysteresis curves". arXiv:1201.2626 [cond-mat.mes-hall].
+
+^ Fildes, J. (2007-11-13), Getting More from Moore's Law, BBC News, retrieved 2008-04-30
+
+^ Taylor, A. G. (2007), "Nanotechnology in the Northwest" (PDF), Bulletin for Electrical and Electronic Engineers of Oregon, 51 (1): 1
+
+^ Stanley Williams, HP Labs, archived from the original on 2011-07-19, retrieved 2011-03-20
+
+^ a b Argall, F. (1968), "Switching Phenomena in Titanium Oxide Thin Films", Solid-State Electronics, 11 (5): 535–541, Bibcode:1968SSEle..11..535A, doi:10.1016/0038-1101(68)90092-0
+
+^ Terabe, K.; Hasegawa, T.; Liang, C.; Aono, M. (2007), "Control of local ion transport to create unique functional nanodevices based on ionic conductors", Science and Technology of Advanced Materials, 8 (6): 536–542, Bibcode:2007STAdM...8..536T, doi:10.1016/j.stam.2007.08.002
+
+^ Beck, A.; et al. (2000), "Reproducible switching effect in thin oxide films for memory applications", Applied Physics Letters, 77 (1): 139, Bibcode:2000ApPhL..77..139B, doi:10.1063/1.126902
+
+^ Stefanovich, Genrikh; Cho, Choong-rae; Yoo, In-kyeong; Lee, Eun-hong; Cho, Sung-il; Moon, Chang-wook (2006) "Electrode structure having at least two oxide layers and non-volatile memory device having the same" U.S. patent 7,417,271
+
+^ Finding the Missing Memristor - R. Stanley Williams, 2010-01-21
+
+^ Markoff, J. (2010-04-07), "H.P. Sees a Revolution in Memory Chip", New York Times
+
+^ Kavehei, O.; Iqbal, A.; Kim, Y.S.; Eshraghian, K.; Al-Sarawi, S. F.; Abbott, D. (2010). "The fourth element: characteristics, modelling and electromagnetic theory of the memristor". Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences. 466 (2120): 2175–2202. arXiv:1002.3210. Bibcode:2010RSPSA.466.2175K. doi:10.1098/rspa.2009.0553. S2CID 7625839.
+
+^ Ben-Jamaa, M. H.; Carrara, S.; Georgiou, J.; Archontas, N.; De Micheli, G. (2009), "Fabrication of memristors with poly-crystalline silicon nanowires", Proceedings of 9th IEEE Conference on Nanotechnology, 1 (1): 152–154
+
+^ Mehonic, A.; Cueff, S.; Wojdak, M., …; Kenyon, A. J. (2012). "Resistive switching in silicon suboxide films" (PDF). Journal of Applied Physics. 111 (7): 074507–074507–9. Bibcode:2012JAP...111g4507M. doi:10.1063/1.3701581.{{cite journal}}: CS1 maint: multiple names: authors list (link)
+
+^ Krieger, J. H.; Spitzer, S. M. (2004), "Non-traditional, Non-volatile Memory Based on Switching and Retention Phenomena in Polymeric Thin Films", Proceedings of the 2004 Non-Volatile Memory Technology Symposium, IEEE, p. 121, doi:10.1109/NVMT.2004.1380823, ISBN 978-0-7803-8726-3, S2CID 7189710
+
+^ Erokhin, V.; Fontana, M. P. (2008). "Electrochemically controlled polymeric device: A memristor (and more) found two years ago". arXiv:0807.0333 [cond-mat.soft].
+
+^ An; Alibart, F.; Pleutin, S.; Guerin, D.; Novembre, C.; Lenfant, S.; Lmimouni, K.; Gamrat, C.; Vuillaume, D. (2010). "An Organic Nanoparticle Transistor Behaving as a Biological Spiking Synapse". Advanced Functional Materials. 20 (2): 330–337. arXiv:0907.2540. doi:10.1002/adfm.200901335. S2CID 16335153.
+
+^ Alibart, F.; Pleutin, S.; Bichler, O.; Gamrat, C.; Serrano-Gotarredona, T.; Linares-Barranco, B.; Vuillaume, D. (2012). "A Memristive Nanoparticle/Organic Hybrid Synapstor for Neuroinspired Computing". Advanced Functional Materials. 22 (3): 609–616. arXiv:1112.3138. doi:10.1002/adfm.201101935. hdl:10261/83537. S2CID 18687826.
+
+^ Pavlov's; Transistors, Organic; Bichler, O.; Zhao, W.; Alibart, F.; Pleutin, S.; Lenfant, S.; Vuillaume, D.; Gamrat, C. (2013). "Pavlov's Dog Associative Learning Demonstrated on Synaptic-Like Organic Transistors". Neural Computation. 25 (2): 549–566. arXiv:1302.3261. Bibcode:2013arXiv1302.3261B. doi:10.1162/NECO_a_00377. PMID 22970878. S2CID 16972302.
+
+^ Crupi, M.; Pradhan, L.; Tozer, S. (2012), "Modelling Neural Plasticity with Memristors" (PDF), IEEE Canadian Review, 68: 10–14
+
+^ Erokhin, V.; Berzina, T.; Gorshkov, K.; Camorani, P.; Pucci, A.; Ricci, L.; Ruggeri, G.; Signala, R.; Schüz, A. (2012). "Stochastic hybrid 3D matrix: learning and adaptation of electrical properties". Journal of Materials Chemistry. 22 (43): 22881. doi:10.1039/C2JM35064E.
+
+^ Bessonov, A. A.; et al. (2014), "Layered memristive and memcapacitive switches for printable electronics", Nature Materials, 14 (2): 199–204, Bibcode:2015NatMa..14..199B, doi:10.1038/nmat4135, PMID 25384168
+
+^ Ge, Ruijing; Wu, Xiaohan; Kim, Myungsoo; Shi, Jianping; Sonde, Sushant; Tao, Li; Zhang, Yanfeng; Lee, Jack C.; Akinwande, Deji (2017-12-19). "Atomristor: Nonvolatile Resistance Switching in Atomic Sheets of Transition Metal Dichalcogenides". Nano Letters. 18 (1): 434–441. Bibcode:2018NanoL..18..434G. doi:10.1021/acs.nanolett.7b04342. PMID 29236504.
+
+^ Wu, Xiaohan; Ge, Ruijing; Chen, Po-An; Chou, Harry; Zhang, Zhepeng; Zhang, Yanfeng; Banerjee, Sanjay; Chiang, Meng-Hsueh; Lee, Jack C.; Akinwande, Deji (April 2019). "Thinnest Nonvolatile Memory Based on Monolayer h-BN". Advanced Materials. 31 (15): 1806790. Bibcode:2019AdM....3106790W. doi:10.1002/adma.201806790. PMID 30773734. S2CID 73505661.
+
+^ Kim, Myungsoo; Ge, Ruijing; Wu, Xiaohan; Lan, Xing; Tice, Jesse; Lee, Jack C.; Akinwande, Deji (2018). "Zero-static power radio-frequency switches based on MoS2 atomristors". Nature Communications. 9 (1): 2524. Bibcode:2018NatCo...9.2524K. doi:10.1038/s41467-018-04934-x. PMC 6023925. PMID 29955064.
+
+^ "Towards zero-power 6G communication switches using atomic sheets". Nature Electronics. 5 (6): 331–332. June 2022. doi:10.1038/s41928-022-00767-1. S2CID 249221166.
+
+^ Hus, Saban M.; Ge, Ruijing; Chen, Po-An; Liang, Liangbo; Donnelly, Gavin E.; Ko, Wonhee; Huang, Fumin; Chiang, Meng-Hsueh; Li, An-Ping; Akinwande, Deji (January 2021). "Observation of single-defect memristor in an MoS2 atomic sheet". Nature Nanotechnology. 16 (1): 58–62. Bibcode:2021NatNa..16...58H. doi:10.1038/s41565-020-00789-w. PMID 33169008. S2CID 226285710.
+
+^ Chanthbouala, A.; et al. (2012), "A ferroelectric memristor", Nature Materials, 11 (10): 860–864, arXiv:1206.3397, Bibcode:2012NatMa..11..860C, doi:10.1038/nmat3415, PMID 22983431, S2CID 10372470
+
+^ Ageev, O. A.; Blinov, Yu F.; Il’in, O. I.; Kolomiitsev, A. S.; Konoplev, B. G.; Rubashkina, M. V.; Smirnov, V. A.; Fedotov, A. A. (2013-12-11). "Memristor effect on bundles of vertically aligned carbon nanotubes tested by scanning tunnel microscopy". Technical Physics. 58 (12): 1831–1836. Bibcode:2013JTePh..58.1831A. doi:10.1134/S1063784213120025. S2CID 53003312.
+
+^ Il'ina, Marina V.; Il'in, Oleg I.; Blinov, Yuriy F.; Smirnov, Vladimir A.; Kolomiytsev, Alexey S.; Fedotov, Alexander A.; Konoplev, Boris G.; Ageev, Oleg A. (October 2017). "Memristive switching mechanism of vertically aligned carbon nanotubes". Carbon. 123: 514–524. Bibcode:2017Carbo.123..514I. doi:10.1016/j.carbon.2017.07.090.
+
+^ Park, Youngjun; Kim, Min-Kyu; Lee, Jang-Sik (2020-07-16). "Emerging memory devices for artificial synapses". Journal of Materials Chemistry C. 8 (27): 9163–9183. doi:10.1039/D0TC01500H. S2CID 219912115.
+
+^ Raeis-Hosseini, Niloufar; Park, Youngjun; Lee, Jang-Sik (2018). "Flexible Artificial Synaptic Devices Based on Collagen from Fish Protein with Spike-Timing-Dependent Plasticity". Advanced Functional Materials. 28 (31): 1800553. doi:10.1002/adfm.201800553. S2CID 104277945.
+
+^ Park, Youngjun; Lee, Jang-Sik (2017-09-26). "Artificial Synapses with Short- and Long-Term Memory for Spiking Neural Networks Based on Renewable Materials". ACS Nano. 11 (9): 8962–8969. doi:10.1021/acsnano.7b03347. PMID 28837313.
+
+^ Hota, Mrinal K.; Bera, Milan K.; Kundu, Banani; Kundu, Subhas C.; Maiti, Chinmay K. (2012). "A Natural Silk Fibroin Protein-Based Transparent Bio-Memristor". Advanced Functional Materials. 22 (21): 4493–4499. doi:10.1002/adfm.201200073. S2CID 137399893.
+
+^ Cardona-Serra, Salvador; Rosaleny, Lorena E.; Giménez-Santamarina, Silvia; Martínez-Gil, Luis; Gaita-Ariño, Alejandro (2020-12-16). "Towards peptide-based tunable multistate memristive materials". Physical Chemistry Chemical Physics. 23 (3): 1802–1810. doi:10.1039/D0CP05236A. hdl:10550/79239. PMID 33434247. S2CID 231595640.
+
+^ Milano, G.; Porro, S.; Valov, I.; Ricciardi, C. (2019). "Recent Developments and Perspectives for Memristive Devices Based on Metal Oxide Nanowires". Advanced Electronic Materials. 5 (9): 1800909. doi:10.1002/aelm.201800909. S2CID 139445142.
+
+^ Carrara, S. (2021). "The Birth of a New Field: Memristive Sensors. A Review". IEEE Sensors Journal. 21 (11): 12370–12378. Bibcode:2021ISenJ..2112370C. doi:10.1109/JSEN.2020.3043305. S2CID 234542676.
+
+^ Wang, X.; Chen, Y.; Xi, H.; Dimitrov, D. (2009), "Spintronic Memristor through Spin Torque Induced Magnetization Motion", IEEE Electron Device Letters, 30 (3): 294–297, Bibcode:2009IEDL...30..294W, doi:10.1109/LED.2008.2012270, S2CID 39590957
+
+^ Savage, N. (2009-03-16). "Spintronic Memristor". IEEE Spectrum. Archived from the original on 2010-12-24. Retrieved 2011-03-20.
+
+^ Chanthbouala, A.; Matsumoto, R.; Grollier, J.; Cros, V.; Anane, A.; Fert, A.; Khvalkovskiy, A. V.; Zvezdin, K. A.; Nishimura, K.; Nagamine, Y.; Maehara, H.; Tsunekawa, K.; Fukushima, A.; Yuasa, S. (2011-04-10). "Vertical-current-induced domain-wall motion in MgO-based magnetic tunnel junctions with low current densities". Nature Physics. 7 (8): 626–630. arXiv:1102.2106. Bibcode:2011NatPh...7..626C. doi:10.1038/nphys1968. S2CID 119221544.
+
+^ Bowen, M.; Maurice, J.-L.; Barthe´le´my, A.; Prod’homme, P.; Jacquet, E.; Contour, J.-P.; Imhoff, D.; Colliex, C. (2006). "Bias-crafted magnetic tunnel junctions with bistable spin-dependent states". Applied Physics Letters. 89 (10): 103517. Bibcode:2006ApPhL..89j3517B. doi:10.1063/1.2345592.
+
+^ Halley, D.; Majjad, H.; Bowen, M.; Najjari, N.; Henry, Y.; Ulhaq-Bouillet, C.; Weber, W.; Bertoni, G.; Verbeeck, J.; Van Tendeloo, G. (2008). "Electrical switching in Fe/Cr/MgO/Fe magnetic tunnel junctions". Applied Physics Letters. 92 (21): 212115. Bibcode:2008ApPhL..92u2115H. doi:10.1063/1.2938696.
+
+^ a b Krzysteczko, P.; Günter, R.; Thomas, A. (2009), "Memristive switching of MgO based magnetic tunnel junctions", Applied Physics Letters, 95 (11): 112508, arXiv:0907.3684, Bibcode:2009ApPhL..95k2508K, CiteSeerX 10.1.1.313.2571, doi:10.1063/1.3224193, S2CID 15383692
+
+^ Bertin, Eric; Halley, David; Henry, Yves; Najjari, Nabil; Majjad, Hicham; Bowen, Martin; DaCosta, Victor; Arabski, Jacek; Doudin, Bernard (2011), "Random barrier double-well model for resistive switching in tunnel barriers", Journal of Applied Physics, 109 (8): 013712–013712–5, Bibcode:2011JAP...109a3712D, doi:10.1063/1.3530610, retrieved 2014-12-15
+
+^ Schleicher, F.; Halisdemir, U.; Lacour, D.; Gallart, M.; Boukari, S.; Schmerber, G.; Davesne, V.; Panissod, P.; Halley, D.; Majjad, H.; Henry, Y.; Leconte, B.; Boulard, A.; Spor, D.; Beyer, N.; Kieber, C.; Sternitzky, E.; Cregut, O.; Ziegler, M.; Montaigne, F.; Beaurepaire, E.; Gilliot, P.; Hehn, M.; Bowen, M. (2014-08-04), "Localized states in advanced dielectrics from the vantage of spin- and symmetry-polarized tunnelling across MgO", Nature Communications, 5: 4547, Bibcode:2014NatCo...5.4547S, doi:10.1038/ncomms5547, PMID 25088937
+
+^ Garcia, V.; Bibes, M.; Bocher, L.; Valencia, S.; Kronast, F.; Crassous, A.; Moya, X.; Enouz-Vedrenne, S.; Gloter, A.; Imhoff, D.; Deranlot, C.; Mathur, N. D.; Fusil, S.; Bouzehouane, K.; Barthelemy, A. (2010-02-26), "Ferroelectric Control of Spin Polarization", Science, 327 (5969): 1106–1110, Bibcode:2010Sci...327.1106G, doi:10.1126/science.1184028, PMID 20075211, S2CID 206524358
+
+^ Pantel, D.; Goetze, S.; Hesse, D.; Alexe, M. (2012-02-26), "Reversible electrical switching of spin polarization in multiferroic tunnel junctions", Nature Materials, 11 (4): 289–293, Bibcode:2012NatMa..11..289P, doi:10.1038/nmat3254, PMID 22367005
+
+^ Huai, Y. (December 2008), "Spin-Transfer Torque MRAM (STT-MRAM): Challenges and Prospects" (PDF), AAPPS Bulletin, 18 (6): 33–40, archived from the original (PDF) on 2012-03-23
+
+^ Krzysteczko, P.; Münchenberger, J.; Schäfers, M.; Reiss, G.; Thomas, A. (2012), "The Memristive Magnetic Tunnel Junction as a Nanoscopic Synapse-Neuron System", Advanced Materials, 24 (6): 762–766, Bibcode:2012APS..MAR.H5013T, doi:10.1002/adma.201103723, PMID 22223304, S2CID 205242867
+
+^ "Massimiliano Di Ventra's Homepage". physics.ucsd.edu.
+
+^ Pershin, Y. V.; Di Ventra, M. (2008), "Spin memristive systems: Spin memory effects in semiconductor spintronics", Physical Review B, 78 (11): 113309, arXiv:0806.2151, Bibcode:2008PhRvB..78k3309P, doi:10.1103/PhysRevB.78.113309, S2CID 10938532
+
+^ Pershin, Y. V.; Di Ventra, M. (2008), "Current-voltage characteristics of semiconductor/ferromagnet junctions in the spin-blockade regime", Physical Review B, 77 (7): 073301, arXiv:0707.4475, Bibcode:2008PhRvB..77g3301P, doi:10.1103/PhysRevB.77.073301, S2CID 119604218
+
+^ Campbell, K. (January 2017), "Self-directed channel memristor for high temperature operation", Microelectronics Journal, 59: 10–14, arXiv:1608.05357, doi:10.1016/j.mejo.2016.11.006, S2CID 27889124
+
+^ Knowm Memristors, Knowm Inc
+
+^ Johnson, R. C. (2008-04-30), "'Missing link' memristor created", EE Times, retrieved 2008-04-30
+
+^ "Finding the Missing Memristor - R. Stanley Williams", Youtube, 2010-01-22
+
+^ Markoff, J. (2008-05-01), "H.P. Reports Big Advance in Memory Chip Design", New York Times, retrieved 2008-05-01
+
+^ Gutmann, E. (2008-05-01), "Maintaining Moore's law with new memristor circuits", Ars Technica, retrieved 2008-05-01
+
+^ Palmer, J. (2012-05-18), "Memristors in silicon promising for dense, fast memory", BBC News, retrieved 2012-05-18
+
+^ Snider, Gregory Stuart (2004) "Architecture and methods for computing with reconfigurable resistor crossbars" U.S. patent 7,203,789
+
+^ Mouttet, Blaise Laurent (2006) "Programmable crossbar signal processor" U.S. patent 7,302,513
+
+^ Dong, Zhekang; Sing Lai, Chun; He, Yufei; Qi, Donglian; Duan, Shukai (2019-11-01). "Hybrid dual-complementary metal–oxide–semiconductor/memristor synapse-based neural network with its applications in image super-resolution". IET Circuits, Devices & Systems. 13 (8): 1241–1248. doi:10.1049/iet-cds.2018.5062.
+
+^ Snider, Greg (2003) "Molecular-junction-nanowire-crossbar-based neural network" U.S. patent 7,359,888
+
+^ Mouttet, Blaise Laurent (2007) "Crossbar control circuit" U.S. patent 7,609,086
+
+^ Pino, Robinson E. (2010) "Reconfigurable electronic circuit" U.S. patent 7,902,857
+
+^ Ielmini, D; Wong, H.-S. P. (2018). "In-memory computing with resistive switching devices". Nature Electronics. 1 (6): 333–343. doi:10.1038/s41928-018-0092-2. hdl:11311/1056513. S2CID 57248729.
+
+^ Mouttet, Blaise Laurent (2009) "Memristor crossbar neural interface" U.S. patent 7,902,867
+
+^ Kang, Hee Bok (2009) "RFID device with memory unit having memristor characteristics" U.S. patent 8,113,437
+
+^ Luo, Li; Dong, Zhekang; Duan, Shukai; Lai, Chun Sing (2020-04-20). "Memristor-based stateful logic gates for multi-functional logic circuit". IET Circuits, Devices & Systems. 14 (6): 811–818. doi:10.1049/iet-cds.2019.0422.
+
+^ Lehtonen, E.; Poikonen, J.H.; Laiho, M. (2010). "Two memristors suffice to compute all Boolean functions". Electronics Letters. 46 (3): 230. Bibcode:2010ElL....46..230L. doi:10.1049/el.2010.3407.
+
+^ Chattopadhyay, A.; Rakosi, Z. (2011). "Combinational logic synthesis for material implication". 2011 IEEE/IFIP 19th International Conference on VLSI and System-on-Chip. p. 200. doi:10.1109/VLSISoC.2011.6081665. ISBN 978-1-4577-0170-2. S2CID 32278896.
+
+^ Pershin, Y. V.; La Fontaine, S.; Di Ventra, M. (2009), "Memristive model of amoeba learning", Physical Review E, 80 (2): 021926, arXiv:0810.4179, Bibcode:2009PhRvE..80b1926P, doi:10.1103/PhysRevE.80.021926, PMID 19792170, S2CID 9820970
+
+^ a b Saigusa, T.; Tero, A.; Nakagaki, T.; Kuramoto, Y. (2008), "Amoebae Anticipate Periodic Events" (PDF), Physical Review Letters, 100 (1): 018101, Bibcode:2008PhRvL.100a8101S, doi:10.1103/PhysRevLett.100.018101, hdl:2115/33004, PMID 18232821, S2CID 14710241
+
+^ Versace, M.; Chandler, B. (2010-11-23). "MoNETA: A Mind Made from Memristors". IEEE Spectrum. Archived from the original on 2010-11-25. Versace, M.; Chandler, B. (2010). "The brain of a new machine". IEEE Spectrum. 47 (12): 30–37. doi:10.1109/MSPEC.2010.5644776. S2CID 45300119.
+
+^ Snider, G.; et al. (2011), "From Synapses to Circuitry: Using Memristive Memory to Explore the Electronic Brain", IEEE Computer, 44 (2): 21–28, doi:10.1109/MC.2011.48, S2CID 16307308
+
+^ Merrikh-Bayat, F.; Bagheri-Shouraki, S.; Rohani, A. (2011), "Memristor crossbar-based hardware implementation of IDS method", IEEE Transactions on Fuzzy Systems, 19 (6): 1083–1096, arXiv:1008.5133, doi:10.1109/TFUZZ.2011.2160024, S2CID 3163846
+
+^ Merrikh-Bayat, F.; Bagheri-Shouraki, S. (2011). "Efficient neuro-fuzzy system and its Memristor Crossbar-based Hardware Implementation". arXiv:1103.1156 [cs.AI].
+
+^ Chua, L. (2013). "Memristor, Hodgkin-Huxley, and Edge of Chaos". Nanotechnology. 24 (38): 383001. Bibcode:2013Nanot..24L3001C. doi:10.1088/0957-4484/24/38/383001. PMID 23999613. S2CID 34999101.
+
+^ a b Di Ventra, M.; Pershin, Y. V.; Chua, L. (2009), "Circuit elements with memory: memristors, memcapacitors and meminductors", Proceedings of the IEEE, 97 (10): 1717–1724, arXiv:0901.3682, Bibcode:2009arXiv0901.3682D, doi:10.1109/JPROC.2009.2021077, S2CID 7136764
+
+^ Abdelhouahad, M.-S.; Lozi, R.; Chua, L. (September 2014), "Memfractance: A Mathematical Paradigm for Circuit Elements with Memory" (PDF), International Journal of Bifurcation and Chaos, 24 (9): 1430023 (29 pages), Bibcode:2014IJBC...2430023A, doi:10.1142/S0218127414300237
+
+^ Prodromakis, T.; Toumazou, C.; Chua, L. (June 2012), "Two centuries of memristors", Nature Materials, 11 (6): 478–481, Bibcode:2012NatMa..11..478P, doi:10.1038/nmat3338, PMID 22614504
+
+^ Barella, M. (2016), "LabOSat: Low cost measurement platform designed for hazardous environments", 2016 Seventh Argentine Conference on Embedded Systems (CASE), pp. 1–6, doi:10.1109/SASE-CASE.2016.7968107, ISBN 978-987-46297-0-8, S2CID 10263318
+
+^ "Probaron con éxito las memorias instaladas en el satélite argentino "Tita"". Telam. 2014-07-21.
+
+^ Barella, M. (2019), "Studying ReRAM devices at Low Earth Orbits using the LabOSat platform", Radiation Physics and Chemistry, 154: 85–90, Bibcode:2019RaPC..154...85B, doi:10.1016/j.radphyschem.2018.07.005
+
+^ "UNSAM - Universidad Nacional de San Martín". www.unsam.edu.ar.
+
+^ "Qué hace LabOSat, el laboratorio electrónico dentro de los nanosatélites Fresco y Batata". Telam. 2016-06-22.
+
+^ "Startup Beats HP, Hynix to Memristor Learning". EE Times. 2015-07-05.
+
+^ "MemSat". Gunter Space Page. 2018-05-22.
+
+^ "MIT and Ericsson Collaborates to Research New Generation of Energy-Efficient Computing Networks - News". eepower.com.
+
+^ "MIT and Ericsson Set Goals for Zero-power Devices and a New Field—"Lithionics" - News". www.allaboutcircuits.com.
+
+^ Zhang, Wenbin (2023-09-14). "Edge learning using a fully integrated neuro-inspired memristor chip". Science. 381 (6663): 1205–1211. Bibcode:2023Sci...381.1205Z. doi:10.1126/science.ade3483. PMID 37708281. S2CID 261736380.
+
+Further reading
+
+[edit]
+
+Chen, Dongmin; Chua, Leon O.; Hwang, Cheol Seong; Wang, Shih-Yuan; Waser, Rainer; Williams, R. Stanley; Yang, Jianhua, eds. (March 2011). "Special Issue: Memristive and Resistive Devices and Systems". Applied Physics A. 102 (4).
+
+Mazumder, P.; Kang, S. M.; Waser, R., eds. (June 2012). "Special Issue: MEMRISTORS: DEVICES, MODELS, AND APPLICATIONS". Proceedings of the IEEE. 100 (6): 1905–2092. doi:10.1109/JPROC.2012.2197452.
+
+Tetzlaff, Ronald, ed. (2013). Memristors and Memristive Systems. Springer Science & Business Media. doi:10.1007/978-1-4614-9068-5. ISBN 978-1-4614-9068-5.
+
+Adamatzky, Andrew; Chua, Leon, eds. (2013). Memristor Networks. Springer Science & Business Media. doi:10.1007/978-3-319-02630-5. ISBN 978-3-319-02630-5. S2CID 39739718.
+
+Atkin, Keith (May 2013). "An introduction to the memristor". Physics Education. 48 (3): 317–321. Bibcode:2013PhyEd..48..317A. doi:10.1088/0031-9120/48/3/317. S2CID 121268844.
+
+Gale, Ella (2014-10-01). "TiO2-based memristors and ReRAM: materials, mechanisms and models (a review)". Semiconductor Science and Technology. 29 (10): 104004. arXiv:1611.04456. Bibcode:2014SeScT..29j4004G. doi:10.1088/0268-1242/29/10/104004. S2CID 5686212.
+
+Traversa, Fabio Lorenzo; Di Ventra, Massimiliano (November 2015). "Universal Memcomputing Machines". IEEE Transactions on Neural Networks and Learning Systems. 26 (11): 2702–2715. arXiv:1405.0931. CiteSeerX 10.1.1.747.5690. doi:10.1109/TNNLS.2015.2391182. PMID 25667360. S2CID 1406042.
+
+Caravelli, Francesco; Carbajal, Juan Pablo (January 2019). "Memristors for the curious outsiders". Technologies. 6 (4): 118. arXiv:1812.03389. doi:10.3390/technologies6040118. S2CID 54464654.
+
+Maan, Akshay Kumar; Jayadevi, Deepthi Anirudhan; James, Alex Pappachen (August 2017). "A Survey of Memristive Threshold Logic Circuits". IEEE Transactions on Neural Networks and Learning Systems. 28 (8): 1734–1746. arXiv:1604.07121. doi:10.1109/TNNLS.2016.2547842. PMID 27164608. S2CID 1798273.
+
+Ghosh, M., Singh, A., Borah, S. S., Vista, J., Ranjan, A., Kumar, S. (2022). "MOSFET-based memristor for high-frequency signal processing". IEEE Transactions on Electron Devices. 69 (5): 2248–2255. Bibcode:2022ITED...69.2248G. doi:10.1109/ted.2022.3160940. ISSN 0018-9383. S2CID 247889089.
+
+Singh, A., Borah, S. S., Ghosh, M. (2021), Simple grounded meminductor emulator using transconductance amplifier, IEEE
+
+External links
+
+[edit]
+
+
+
+Wikimedia Commons has media related to Memristors.
+
+Finding the missing memristor on YouTube
+
+Interactive database of memristor papers (2013)
+
+Simonite, Tom (2015-04-21). "Machine Dreams". Technology Review. Retrieved 2017-12-05.
+
+"Leon Chua: A bulb versus Google go player" - (in Polish) an interview with Leon Chua, the creator of memristor
+
+"Leon Chua: A bulb versus Google go player" - (in English) an interview with Leon Chua, the creator of memristor
+
+v t e Emerging technologies Fields Electronics E-textiles Electronic nose Flexible electronics Memristor Molecular electronics Nanoelectromechanical systems Spintronics Thermal copper pillar bump Twistronics Topics Automation Collingridge dilemma Differential technological development Disruptive innovation Ephemeralization Ethics Bioethics Cyberethics Neuroethics Robot ethics Exploratory engineering Proactionary principle Technological change Technological unemployment Technological convergence Technological evolution Technological paradigm Technology forecasting Accelerating change Future-oriented technology analysis Horizon scanning Moore's law Technological singularity Technology scouting Technology in science fiction Technology readiness level Technology roadmap Transhumanism List
+
+v t e Electronic components Semiconductor devices MOS transistors Transistor NMOS PMOS BiCMOS BioFET Chemical field-effect transistor (ChemFET) Complementary MOS (CMOS) Depletion-load NMOS Fin field-effect transistor (FinFET) Floating-gate MOSFET (FGMOS) Insulated-gate bipolar transistor (IGBT) ISFET LDMOS MOS field-effect transistor (MOSFET) Multi-gate field-effect transistor (MuGFET) Power MOSFET Thin-film transistor (TFT) VMOS UMOS Other transistors Bipolar junction transistor (BJT) Darlington transistor Diffused junction transistor Field-effect transistor (FET) Junction Gate FET (JFET) Organic FET (OFET) Light-emitting transistor (LET) Organic LET (OLET) Pentode transistor Point-contact transistor Programmable unijunction transistor (PUT) Static induction transistor (SIT) Tetrode transistor Unijunction transistor (UJT) Diodes Avalanche diode Constant-current diode (CLD, CRD) Gunn diode Laser diode (LD) Light-emitting diode (LED) Organic light-emitting diode (OLED) Photodiode PIN diode Schottky diode Step recovery diode Zener diode Other devices Printed electronics Printed circuit board DIAC Heterostructure barrier varactor Integrated circuit (IC) Hybrid integrated circuit Light emitting capacitor (LEC) Memistor Memristor Memtransistor Memory cell Metal-oxide varistor (MOV) Mixed-signal integrated circuit MOS integrated circuit (MOS IC) Organic semiconductor Photodetector Quantum circuit RF CMOS Silicon controlled rectifier (SCR) Solaristor Static induction thyristor (SITh) Three-dimensional integrated circuit (3D IC) Thyristor Trancitor TRIAC Varicap Voltage regulators Linear regulator Low-dropout regulator Switching regulator Buck Boost Buck–boost Split-pi Ćuk SEPIC Charge pump Switched capacitor Vacuum tubes Acorn tube Audion Beam tetrode Barretter Compactron Diode Fleming valve Neutron tube Nonode Nuvistor Pentagrid (Hexode, Heptode, Octode) Pentode Photomultiplier Phototube Tetrode Triode Vacuum tubes ( RF ) Backward-wave oscillator (BWO) Cavity magnetron Crossed-field amplifier (CFA) Gyrotron Inductive output tube (IOT) Klystron Maser Sutton tube Traveling-wave tube (TWT) X-ray tube Cathode-ray tubes Beam deflection tube Charactron Iconoscope Magic eye tube Monoscope Selectron tube Storage tube Trochotron Video camera tube Williams tube Gas-filled tubes Cold cathode Crossatron Dekatron Ignitron Krytron Mercury-arc valve Neon lamp Nixie tube Thyratron Trigatron Voltage-regulator tube Adjustable Potentiometer digital Variable capacitor Varicap Passive Connector audio and video electrical power RF Electrolytic detector Ferrite Antifuse Fuse resettable eFUSE Resistor Switch Thermistor Transformer Varistor Wire Wollaston wire Reactive Capacitor types Ceramic resonator Crystal oscillator Inductor Parametron Relay reed relay mercury relay
+
+v t e Differentiable computing General Differentiable programming Information geometry Statistical manifold Automatic differentiation Neuromorphic computing Pattern recognition Ricci calculus Computational learning theory Inductive bias Hardware IPU TPU VPU Memristor SpiNNaker Software libraries TensorFlow PyTorch Keras scikit-learn Theano JAX Flux.jl MindSpore Portals Computer programming Technology
+
+Authority control databases : National Germany United States France BnF data Czech Republic Israel
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Memristor&oldid=1278120600"
+
+Categories:
+
+Electrical components
+
+American inventions
+
+Electronic circuits in computer storage
+
+Experimental electrical components
+
+Hidden categories:
+
+CS1 maint: multiple names: authors list
+
+Articles with short description
+
+Short description is different from Wikidata
+
+Use dmy dates from May 2022
+
+All articles with vague or ambiguous time
+
+Vague or ambiguous time from September 2024
+
+All articles with unsourced statements
+
+Articles with unsourced statements from January 2020
+
+Wikipedia articles needing clarification from January 2020
+
+Commons category link is on Wikidata

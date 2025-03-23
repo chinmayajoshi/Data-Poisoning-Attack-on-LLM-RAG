@@ -1,0 +1,609 @@
+Nanocellulose
+
+العربية
+
+Ελληνικά
+
+Español
+
+فارسی
+
+Français
+
+हिन्दी
+
+Italiano
+
+עברית
+
+日本語
+
+Suomi
+
+Svenska
+
+Edit links
+
+From Wikipedia, the free encyclopedia
+
+Material composed of nanosized cellulose fibrils
+
+Part of a series of articles on Nanomaterials  Carbon nanotubes Synthesis Chemistry Mechanical properties Optical properties Applications Timeline Fullerenes Buckminsterfullerene C70 fullerene Chemistry Health impact Carbon allotropes Other nanoparticles Carbon quantum dots Carbon nanotube quantum dots Silicon quantum dots Cadmium-free quantum dots Quantum dots Aluminium oxide Cellulose Ceramic Cobalt oxide Copper Gold Iron Iron oxide Iron–platinum Lipid Platinum Silver Titanium dioxide Nanostructured materials Nanocomposite Nanofoam Nanoporous materials Nanocrystalline material Science portal Technology portal v t e
+
+Nanocellulose is a term referring to a family of cellulosic materials that have at least one of their dimensions in the nanoscale. Examples of nanocellulosic materials are microfibrilated cellulose, cellulose nanofibers or cellulose nanocrystals. Nanocellulose may be obtained from natural cellulose fibers through a variety of production processes. This family of materials possesses interesting properties suitable for a wide range of potential applications.
+
+Terminology
+
+[edit]
+
+Microfibrilated cellulose
+
+[edit]
+
+Micro cellulose (MFC) is a type of nanocellulose that is more heterogeneous than cellulose nanofibers or nanocrystals as it contains a mixture of nano- and micron-scale particles. The term is sometimes misused to refer to cellulose nanofibers instead.[1][2]
+
+Cellulose nanofibers
+
+[edit]
+
+Cellulose nanofibers (CNF), also called nanofibrillated cellulose (NFC), are nanosized cellulose fibrils with a high aspect ratio (length to width ratio). Typical fibril widths are 5–20 nanometers with a wide range of lengths, typically several micrometers.
+
+The fibrils can be isolated from natural cellulose, generally wood pulp, through high-pressure, high temperature and high velocity impact homogenization, grinding or microfluidization (see manufacture below).[3][4][5]
+
+Cellulose nanocrystals
+
+[edit]
+
+Cellulose nanocrystals (CNCs), or nanocrystalline cellulose (NCC), are highly crystalline, rod-like nanoparticles.[6][7] They are usually covered by negatively charged groups that render them colloidally stable in water. They are typically shorter than CNFs, with a typical length of 100 to 1000 nanometers.[8]
+
+Bacterial nanocellulose
+
+[edit]
+
+Some cellulose producing bacteria have also been used to produce nanocellulosic materials that are then referred to as bacterial nanocellulose.[9] The most common examples being Medusomyces gisevii (the bacteria involved in the making of Kombucha) and Komagataeibacter xylinus (involve in the fabrication of Nata de coco), see bacterial cellulose for more details. This naming distinction might arise from the very peculiar morphology of these materials compared to the more traditional ones made of wood or cotton cellulose. In practice, bacterial nanocellulosic materials are often larger than their wood or cotton counterparts.
+
+History
+
+[edit]
+
+The discovery of nanocellulosic materials can be traced back to late 1940s studies on the hydrolysis of cellulose fibers.[2] Eventually it was noticed that cellulose hydrolysis seemed to occur preferentially at some disordered intercrystalline portions of the fibers.[10] This led to the obtention of colloidally stable and highly crystalline nanorods particles.[11][12][13] These particles were first referred to as micelles, before being given multiple names including cellulose nanocrystals (CNCs), nanocrystalline cellulose (NCC), or cellulose (nano)whiskers, though this last term is less used today.[2] Later studies by O. A. Battista showed that in milder hydrolysis conditions, the crystalline nanorods stay aggregated as micron size objects.[14][15] This material was later referred to as microcrystalline cellulose (MCC) and commercialised under the name Avicel by FMC Corporation.[16]
+
+Microfibrillated cellulose (MFC) was discovered later, in the 1980s, by Turbak, Snyder and Sandberg at the ITT Rayonier labs in Shelton, Washington.[17][18][19] This terminology was used to describe a gel-like material prepared by passing wood pulp through a Gaulin type milk homogenizer at high temperatures and high pressures followed by ejection impact against a hard surface. In later work, F. W. Herrick at ITT Rayonier Eastern Research Division (ERD) Lab in Whippany also published work on making a dry powder form of the gel.[20][19] Rayonier, as a company, never pursued scale-up and gave free license to whoever wanted to pursue this new use for cellulose.[citation needed] Rather, Turbak et al. pursued 1) finding new uses for the MFC, including using as a thickener and binder in foods, cosmetics, paper formation, textiles, nonwovens, etc. and 2) evaluate swelling and other techniques for lowering the energy requirements for MFC production.[21] The first MFC pilot production plant of MFC was established in 2010 by Innventia AB (Sweden).[22]
+
+Manufacture
+
+[edit]
+
+Cellulose sources
+
+[edit]
+
+Nanocellulose materials can be prepared from any natural cellulose source including wood, cotton, agricultural[23] or household wastes,[24] algae,[25] bacteria or tunicate. Wood, in the form of wood pulp is currently the most commonly used starting material for the industrial production of nanocellulosic materials.
+
+Nanocellulose fibrils
+
+[edit]
+
+Nanocellulose fibrils (MFC and CNFs) may be isolated from the cellulose fibers using mechanical methods that expose the fibers to high shear forces, delaminating them into nano-fibers. For this purpose, high-pressure homogenizers, grinders or microfluidizers can be used.[citation needed] This process consumes very large amounts of energy and values over 30 MWh/tonne are not uncommon.[citation needed]
+
+To address this problem, sometimes enzymatic/mechanical pre-treatments and introduction of charged groups for example through carboxymethylation or TEMPO-mediated oxidation are used.[26] These pre-treatments can decrease energy consumption below 1 MWh/tonne.[citation needed] "Nitro-oxidation" has been developed to prepare carboxycellulose nanofibers directly from raw plant biomass. Owing to fewer processing steps to extract nanocellulose, the nitro-oxidation method has been found to be a cost-effective, less-chemically oriented and efficient method to extract carboxycellulose nanofibers.[27][28] Functionalized nanofibers obtained using nitro-oxidation have been found to be an excellent substrate to remove heavy metal ion impurities such as lead,[29] cadmium,[30] and uranium.[31]
+
+A chemo-mechanical process for production of nanocellulose from cotton linters has been demonstrated with a capacity of 10 kg per day.[32]
+
+Cellulose nanocrystals
+
+[edit]
+
+Cellulose nanocrystals (CNC) are formed by the acid hydrolysis of native cellulose fibers, most commonly using sulfuric or hydrochloric acid. Disordered sections of native cellulose are hydrolysed and after careful timing, the remaining crystalline sections can be retrieved from the acid solution by centrifugation and dialysis against water. Their final dimensions depend on the cellulose source, its history, the hydrolysis conditions and the purification procedures.[33] CNCs are commercialised by various companies that use different sources and processes, leading to a range of available products.[34][35]
+
+Other cellulose based nanoparticles
+
+[edit]
+
+Spherical shaped carboxycellulose nanoparticles prepared by nitric acid-phosphoric acid treatment are stable in dispersion in its non-ionic form.[36]
+
+Structure and properties
+
+[edit]
+
+Dimensions and crystallinity
+
+[edit]
+
+The ultrastructure of nanocellulose derived from various sources has been extensively studied. Techniques such as transmission electron microscopy (TEM), scanning electron microscopy (SEM), atomic force microscopy (AFM), wide angle X-ray scattering (WAXS), small incidence angle X-ray diffraction and solid state 13C cross-polarization magic angle spinning (CP/MAS), nuclear magnetic resonance (NMR) and spectroscopy have been used to characterize typically dried nanocellulose morphology.[citation needed]
+
+A combination of microscopic techniques with image analysis can provide information on fibril widths, it is more difficult to determine fibril lengths, because of entanglements and difficulties in identifying both ends of individual nanofibrils.[37][38][page needed] Also, nanocellulose suspensions may not be homogeneous and can consist of various structural components, including cellulose nanofibrils and nanofibril bundles.[39]
+
+In a study of enzymatically pre-treated nanocellulose fibrils in a suspension the size and size-distribution were established using cryo-TEM. The fibrils were found to be rather mono-dispersed mostly with a diameter of ca. 5 nm although occasionally thicker fibril bundles were present.[40] By combining ultrasonication with an "oxidation pretreatment", cellulose microfibrils with a lateral dimension below 1 nm has been observed by AFM. The lower end of the thickness dimension is around 0.4 nm, which is related to the thickness of a cellulose monolayer sheet.[41]
+
+Aggregate widths can be determined by CP/MAS NMR developed by Innventia AB, Sweden, which also has been demonstrated to work for nanocellulose (enzymatic pre-treatment). An average width of 17 nm has been measured with the NMR-method, which corresponds well with SEM and TEM. Using TEM, values of 15 nm have been reported for nanocellulose from carboxymethylated pulp. However, thinner fibrils can also be detected. Wågberg et al. reported fibril widths of 5–15 nm for a nanocellulose with a charge density of about 0.5 meq./g.[42] The group of Isogai reported fibril widths of 3–5 nm for TEMPO-oxidized cellulose having a charge density of 1.5 meq./g.[43]
+
+Pulp chemistry has a significant influence on nanocellulose microstructure. Carboxymethylation increases the numbers of charged groups on the fibril surfaces, making the fibrils easier to liberate and results in smaller and more uniform fibril widths (5–15 nm) compared to enzymatically pre-treated nanocellulose, where the fibril widths were 10–30 nm.[44] The degree of crystallinity and crystal structure of nanocellulose. Nanocellulose exhibits cellulose crystal I organization and the degree of crystallinity is unchanged by the preparation of the nanocellulose. Typical values for the degree of crystallinity were around 63%.[44]
+
+Viscosity
+
+[edit]
+
+The rheology of nanocellulose dispersions has been investigated.[45][40] and revealed that the storage and loss modulus were independent of the angular frequency at all nanocellulose concentrations between 0.125% to 5.9%. The storage modulus values are particularly high (104 Pa at 3% concentration)[40] compared to results for CNCs (102 Pa at 3% concentration).[45] There is also a strong concentration dependence as the storage modulus increases 5 orders of magnitude if the concentration is increased from 0.125% to 5.9%. Nanocellulose gels are also highly shear thinning (the viscosity is lost upon introduction of the shear forces). The shear-thinning behaviour is particularly useful in a range of different coating applications.[40]
+
+It is pseudo-plastic and exhibits thixotropy, the property of certain gels or fluids that are thick (viscous) under normal conditions, but become less viscous when shaken or agitated. When the shearing forces are removed the gel regains much of its original state.
+
+Mechanical properties
+
+[edit]
+
+Crystalline cellulose has a stiffness about 140–220 GPa, comparable with that of Kevlar and better than that of glass fiber, both of which are used commercially to reinforce plastics. Films made from nanocellulose have high strength (over 200 MPa), high stiffness (around 20 GPa)[46] but lack of high strain[clarification needed] (12%). Its strength/weight ratio is 8 times that of stainless steel.[47] Fibers made from nanocellulose have high strength (up to 1.57 GPa) and stiffness (up to 86 GPa).[48]
+
+Barrier properties
+
+[edit]
+
+In semi-crystalline polymers, the crystalline regions are considered to be gas impermeable. Due to relatively high crystallinity,[44] in combination with the ability of the nanofibers to form a dense network held together by strong inter-fibrillar bonds (high cohesive energy density), it has been suggested that nanocellulose might act as a barrier material.[43][49][50] Although the number of reported oxygen permeability values are limited, reports attribute high oxygen barrier properties to nanocellulose films. One study reported an oxygen permeability of 0.0006 (cm3 μm)/(m2 day kPa) for a ca. 5 μm thin nanocellulose film at 23 °C and 0% RH.[49] In a related study, a more than 700-fold decrease in oxygen permeability of a polylactide (PLA) film when a nanocellulose layer was added to the PLA surface was reported.[43]
+
+The influence of nanocellulose film density and porosity on film oxygen permeability has been explored.[51] Some authors have reported significant porosity in nanocellulose films,[52][46][53] which seems to be in contradiction with high oxygen barrier properties, whereas Aulin et al.[49] measured a nanocellulose film density close to density of crystalline cellulose (cellulose Iß crystal structure, 1.63 g/cm3)[54] indicating a very dense film with a porosity close to zero.
+
+Changing the surface functionality of the cellulose nanoparticle can also affect the permeability of nanocellulose films. Films constituted of negatively charged CNCs could effectively reduce permeation of negatively charged ions, while leaving neutral ions virtually unaffected. Positively charged ions were found to accumulate in the membrane.[55]
+
+Multi-parametric surface plasmon resonance is one of the methods to study barrier properties of natural, modified or coated nanocellulose. The different antifouling, moisture, solvent, antimicrobial barrier formulation quality can be measured on the nanoscale. The adsorption kinetics as well as the degree of swelling can be measured in real-time and label-free.[56][57]
+
+Liquid crystals, colloidal glasses, and hydrogels
+
+[edit]
+
+Owed to their anisotropic shape and surface charge, nanocelluloses (mostly rigid CNCs) have a high excluded volume and self-assemble into cholesteric liquid crystals beyond a critical volume fraction.[58] Nanocellulose liquid crystals are left-handed due to the right-handed twist on particle level.[59] Nanocellulose phase behavior is susceptible to ionic charge screening. An increase in ionic strength induces the arrest of nanocellulose dispersions into attractive glasses.[60] At further increasing ionic strength, nanocelluloses aggregate into hydrogels.[61] The interactions within nanocelluloses are weak and reversible, wherefore nanocellulose suspensions and hydrogels are self-healing and may be applied as injectable materials[62] or 3D printing inks.[63]
+
+Bulk foams and aerogels
+
+[edit]
+
+Nanocellulose can also be used to make aerogels/foams, either homogeneously or in composite formulations. Nanocellulose-based foams are being studied for packaging applications in order to replace polystyrene-based foams. Svagan et al. showed that nanocellulose has the ability to reinforce starch foams by using a freeze-drying technique.[64] The advantage of using nanocellulose instead of wood-based pulp fibers is that the nanofibrils can reinforce the thin cells in the starch foam. Moreover, it is possible to prepare pure nanocellulose aerogels applying various freeze-drying and super critical CO 2 drying techniques. Aerogels and foams can be used as porous templates.[65][66] Tough ultra-high porosity foams prepared from cellulose I nanofibril suspensions were studied by Sehaqui et al. a wide range of mechanical properties including compression was obtained by controlling density and nanofibril interaction in the foams.[67] CNCs could also be made to gel in water under low power sonication giving rise to aerogels with the highest reported surface area (>600m2/g) and lowest shrinkage during drying (6.5%) of cellulose aerogels.[66] In another study by Aulin et al.,[68] the formation of structured porous aerogels of nanocellulose by freeze-drying was demonstrated. The density and surface texture of the aerogels was tuned by selecting the concentration of the nanocellulose dispersions before freeze-drying. Chemical vapour deposition of a fluorinated silane was used to uniformly coat the aerogel to tune their wetting properties towards non-polar liquids/oils. The authors demonstrated that it is possible to switch the wettability behaviour of the cellulose surfaces between super-wetting and super-repellent, using different scales of roughness and porosity created by the freeze-drying technique and change of concentration of the nanocellulose dispersion. Structured porous cellulose foams can however also be obtained by utilizing the freeze-drying technique on cellulose generated by Gluconobacter strains of bacteria, which bio-synthesize open porous networks of cellulose fibers with relatively large amounts of nanofibrils dispersed inside. Olsson et al.[69] demonstrated that these networks can be further impregnated with metalhydroxide/oxide precursors, which can readily be transformed into grafted magnetic nanoparticles along the cellulose nanofibers. The magnetic cellulose foam may allow for a number of novel applications of nanocellulose and the first remotely actuated magnetic super sponges absorbing 1 gram of water within a 60 mg cellulose aerogel foam were reported. Notably, these highly porous foams (>98% air) can be compressed into strong magnetic nanopapers, which may find use as functional membranes in various applications.
+
+Pickering emulsions and foams
+
+[edit]
+
+Nanocelluloses can stabilize emulsions and foams by a Pickering mechanism, i.e. they adsorb at the oil-water or air-water interface and prevent their energetic unfavorable contact. Nanocelluloses form oil-in-water emulsions with a droplet size in the range of 4-10 μm that are stable for months and can resist high temperatures and changes in pH.[70][71] Nanocelluloses decrease the oil-water interface tension[72] and their surface charge induces electrostatic repulsion within emulsion droplets. Upon salt-induced charge screening the droplets aggregate but do not undergo coalescence, indicating strong steric stabilization.[73] The emulsion droplets even remain stable in the human stomach and resist gastric lipolysis, thereby delaying lipid absorption and satiation.[74][75] In contrast to emulsions, native nanocelluloses are generally not suitable for the Pickering stabilization of foams, which is attributed to their primarily hydrophilic surface properties that results in an unfavorable contact angle below 90° (they are preferably wetted by the aqueous phase).[76] Using hydrophobic surface modifications or polymer grafting, the surface hydrophobicity and contact angle of nanocelluloses can be increased, allowing also the Pickering stabilization of foams.[77] By further increasing the surface hydrophobicity, inverse water-in-oil emulsions can be obtained, which denotes a contact angle higher than 90°.[78][79] It was further demonstrated that nanocelluloses can stabilize water-in-water emulsions in presence of two incompatible water-soluble polymers.[80]
+
+Cellulose nanofiber plate
+
+[edit]
+
+A bottom up approach can be used to create a high-performance bulk material with low density, high strength and toughness, and great thermal dimensional stability: cellulose nanofiber plate (CNFP). Cellulose nanofiber hydrogel is created by biosynthesis. The hydrogels can then be treated with a polymer solution or by surface modification and then are hot-pressed at 80 °C. The result is bulk material with excellent machinability. “The ultrafine nanofiber network structure in CNFP results in more extensive hydrogen bonding, the high in-plane orientation, and “three way branching points” of the microfibril networks”.[81] This structure gives CNFP its high strength by distributing stress and adding barriers to crack formation and propagation. The weak link in this structure is bond between the pressed layers which can lead to delamination. To reduce delamination, the hydrogel can be treated with silicic acid, which creates strong covalent cross-links between layers during hot pressing.[81]
+
+Surface modification
+
+[edit]
+
+The surface modification of nanocellulose is currently receiving a large amount of attention.[82] Nanocellulose displays a high concentration of hydroxyl groups at the surface which can be reacted. However, hydrogen bonding strongly affects the reactivity of the surface hydroxyl groups. In addition, impurities at the surface of nanocellulose such as glucosidic and lignin fragments need to be removed before surface modification to obtain acceptable reproducibility between different batches.[83]
+
+Safety aspects
+
+[edit]
+
+Processing of nanocellulose does not cause significant exposure to fine particles during friction grinding or spray drying. No evidence of inflammatory effects or cytotoxicity on mouse or human macrophages can be observed after exposure to nanocellulose. The results of toxicity studies suggest that nanocellulose is not cytotoxic and does not cause any effects on inflammatory system in macrophages. In addition, nanocellulose is not acutely toxic to Vibrio fischeri in environmentally relevant concentrations.[84]
+
+Despite intensified research on oral food or pharmaceutical formulations containing nanocelluloses they are not generally recognized as safe. Nanocelluloses were demonstrated to exhibit limited toxicity and oxidative stress in in vitro intestinal epithelium[85][86][87] or animal models.[88][89][90]
+
+Potential applications
+
+[edit]
+
+The properties of nanocellulose (e.g. mechanical properties, film-forming properties, viscosity etc.) makes it an interesting material for many applications.[91]
+
+Paper and paperboard
+
+[edit]
+
+In the area of paper and paperboard manufacture, nanocelluloses are expected to enhance the fiber-fiber bond strength and, hence, have a strong reinforcement effect on paper materials.[94][95][96] Nanocellulose may be useful as a barrier in grease-proof type of papers and as a wet-end additive to enhance retention, dry and wet strength in commodity type of paper and board products.[97][98][99][100] It has been shown that applying CNF as a coating material on the surface of paper and paperboard improves the barrier properties, especially air resistance[101] and grease/oil resistance.[101][102][97] It also enhances the structure properties of paperboards (smoother surface).[103] Very high viscosity of MFC/CNF suspensions at low solids content limits the type of coating techniques that can be utilized to apply these suspensions onto paper/paperboard. Some of the coating methods utilized for MFC surface application onto paper/paperboard have been rod coating,[98] size press,[102] spray coating,[104] foam coating [105] and slot-die coating.[101] Wet-end surface application of mineral pigments and MFC mixture to improve barrier, mechanical and printing properties of paperboard are also being explored.[106]
+
+Nanocellulose can be used to prepare flexible and optically transparent paper. Such paper is an attractive substrate for electronic devices because it is recyclable, compatible with biological objects, and easily biodegrades.[93]
+
+Composite
+
+[edit]
+
+As described above the properties of the nanocellulose makes an interesting material for reinforcing plastics. Nanocellulose can be spun into filaments that are stronger and stiffer than spider silk.[48][107] Nanocellulose has been reported to improve the mechanical properties of thermosetting resins, starch-based matrixes, soy protein, rubber latex, poly(lactide). Hybrid cellulose nanofibrils-clay minerals composites present interesting mechanical, gas barrier and fire retardancy properties.[108] The composite applications may be for use as coatings and films,[109] paints, foams, packaging.
+
+Food
+
+[edit]
+
+Nanocellulose can be used as a low calorie replacement for carbohydrate additives used as thickeners, flavour carriers, and suspension stabilizers in a wide variety of food products.[110] It is useful for producing fillings, crushes, chips, wafers, soups, gravies, puddings etc. The food applications arise from the rheological behaviour of the nanocellulose gel.
+
+Hygiene and absorbent products
+
+[edit]
+
+Applications in this field include: super water absorbent material (e.g. for incontinence pads material), nanocellulose used together with super absorbent polymers, nanocellulose in tissue, non-woven products or absorbent structures and as antimicrobial films.[citation needed]
+
+Emulsion and dispersion
+
+[edit]
+
+Nanocellulose has potential applications in the general area of emulsion and dispersion applications in other fields.[111][112]
+
+Medical, cosmetic and pharmaceutical
+
+[edit]
+
+The use of nanocellulose in cosmetics and pharmaceuticals has been suggested:
+
+Freeze-dried nanocellulose aerogels used in sanitary napkins, tampons, diapers or as wound dressing
+
+The use of nanocellulose as a composite coating agent in cosmetics e.g. for hair, eyelashes, eyebrows or nails
+
+A dry solid nanocellulose composition in the form of tablets for treating intestinal disorders
+
+Nanocellulose films for screening of biological compounds and nucleic acids encoding a biological compound
+
+Filter medium partly based on nanocellulose for leukocyte free blood transfusion
+
+A buccodental formulation, comprising nanocellulose and a polyhydroxylated organic compound
+
+Powdered nanocellulose has also been suggested as an excipient in pharmaceutical compositions
+
+Nanocellulose in compositions of a photoreactive noxious substance purging agent
+
+Elastic cryo-structured gels for potential biomedical and biotechnological application[113]
+
+Matrix for 3D cell culture
+
+Bio-based electronics and energy storage
+
+[edit]
+
+Nanocellulose can pave the way for a new type of "bio-based electronics" where interactive materials are mixed with nanocellulose to enable the creation of new interactive fibers, films, aerogels, hydrogels and papers.[114] E.g. nanocellulose mixed with conducting polymers such as PEDOT:PSS show synergetic effects resulting in extraordinary[115] mixed electronic and ionic conductivity, which is important for energy storage applications. Filaments spun from a mix of nanocellulose and carbon nanotubes show good conductivity and mechanical properties.[116] Nanocellulose aerogels decorated with carbon nanotubes can be constructed into robust compressible 3D supercapacitor devices.[117][118] Structures from nanocellulose can be turned into bio-based triboelectric generators[119] and sensors.
+
+In April 2013 breakthroughs in nanocellulose production, by algae, were announced at an American Chemical Society conference, by speaker R. Malcolm Brown, Jr., Ph.D, who has pioneered research in the field for more than 40 years, spoke at the First International Symposium on Nanocellulose, part of the American Chemical Society meeting. Genes from the family of bacteria that produce vinegar, Kombucha tea and nata de coco have become stars in a project — which scientists said has reached an advanced stage - that would turn algae into solar-powered factories for producing the “wonder material” nanocellulose.[9]
+
+Bio-based coloured materials
+
+[edit]
+
+Cellulose nanocrystals have shown the possibility to self organize into chiral nematic structures[120] with angle-dependent iridescent colours. It is thus possible to manufacture totally bio-based pigments and glitters, films including sequins having a metallic glare and a small footprint compared to fossil-based alternatives.
+
+Other potential applications
+
+[edit]
+
+As a highly scattering material for ultra-white coatings[121]
+
+Activate the dissolution of cellulose in different solvents
+
+Regenerated cellulose products, such as fibers films, cellulose derivatives
+
+Tobacco filter additive
+
+Organometallic modified nanocellulose in battery separators
+
+Reinforcement of conductive materials
+
+Loud-speaker membranes
+
+High-flux membranes
+
+Computer components[47][122]
+
+Capacitors[118]
+
+Lightweight body armour and ballistic glass[47]
+
+Corrosion inhibitors[123][124]
+
+Radio lenses [125]
+
+Related materials
+
+[edit]
+
+Nanochitin is similar in its nanostructure to cellulose nanocrystals but extracted from chitin.
+
+See also
+
+[edit]
+
+Cellulose
+
+Cellulose fiber
+
+Microcrystalline cellulose
+
+Composite material
+
+References
+
+[edit]
+
+^ Osong SH, Norgren S, Engstrand P (February 2016). "Processing of wood-based microfibrillated cellulose and nanofibrillated cellulose, and applications relating to papermaking: a review". Cellulose. 23 (1): 93–123. doi:10.1007/s10570-015-0798-5. ISSN 0969-0239.
+
+^ a b c Charreau H, L Foresti M, Vazquez A (January 1, 2013). "Nanocellulose Patents Trends: A Comprehensive Review on Patents on Cellulose Nanocrystals, Microfibrillated and Bacterial Cellulose". Recent Patents on Nanotechnology. 7 (1): 56–80. doi:10.2174/187221013804484854. hdl:11336/14848. PMID 22747719.
+
+^ Zhu H, Luo W, Ciesielski PN, Fang Z, Zhu JY, Henriksson G, et al. (August 2016). "Wood-Derived Materials for Green Electronics, Biological Devices, and Energy Applications". Chemical Reviews. 116 (16): 9305–9374. doi:10.1021/acs.chemrev.6b00225. PMID 27459699.
+
+^ Klemm D, Kramer F, Moritz S, Lindström T, Ankerfors M, Gray D, et al. (June 2011). "Nanocelluloses: a new family of nature-based materials". Angewandte Chemie. 50 (24): 5438–5466. doi:10.1002/anie.201001273. PMID 21598362.
+
+^ Habibi Y (March 2014). "Key advances in the chemical modification of nanocelluloses". Chemical Society Reviews. 43 (5): 1519–1542. doi:10.1039/C3CS60204D. PMID 24316693.
+
+^ Habibi Y, Lucia LA, Rojas OJ (June 2010). "Cellulose nanocrystals: chemistry, self-assembly, and applications". Chemical Reviews. 110 (6): 3479–3500. doi:10.1021/cr900339w. PMID 20201500.
+
+^ George J, Sabapathi SN (November 4, 2015). "Cellulose nanocrystals: synthesis, functional properties, and applications". Nanotechnology, Science and Applications. 8: 45–54. doi:10.2147/NSA.S64386. PMC 4639556. PMID 26604715.
+
+^ Peng BL, Dhar N, Liu HL, Tam KC (2011). "Chemistry and applications of nanocrystalline cellulose and its derivatives: A nanotechnology perspective" (PDF). The Canadian Journal of Chemical Engineering. 89 (5): 1191–1206. doi:10.1002/cjce.20554. Archived from the original (PDF) on October 24, 2016. Retrieved August 28, 2012.
+
+^ a b "Engineering Algae to Make the 'Wonder Material' Nanocellulose for Biofuels and More". newswise.com.
+
+^ Nickerson RF, Habrle JA (November 1947). "Cellulose Intercrystalline Structure". Industrial & Engineering Chemistry. 39 (11): 1507–1512. doi:10.1021/ie50455a024. ISSN 0019-7866.
+
+^ Rånby BG (1949). "Aqueous Colloidal Solutions of Cellulose Micelles" (PDF). Acta Chemica Scandinavica. 3: 649–650. doi:10.3891/acta.chem.scand.03-0649.
+
+^ Morehead FF (August 1950). "Ultrasonic Disintegration of Cellulose Fibers Before and After Acid Hydrolysis". Textile Research Journal. 20 (8): 549–553. doi:10.1177/004051755002000803. ISSN 0040-5175.
+
+^ Mukherjee SM, Woods HJ (April 1953). "X-ray and electron microscope studies of the degradation of cellulose by sulphuric acid". Biochimica et Biophysica Acta. 10 (4): 499–511. doi:10.1016/0006-3002(53)90295-9. PMID 13059015.
+
+^ US 2,978,446, Battista; Hill & Smith, "Level-off D.P cellulose products", published 1961-04-04, assigned to American Viscose Corporation
+
+^ US 3,141,875, Battista; Hill & Smith, "Crystallite aggregates disintegrated in acid medium", published 1964-07-21, assigned to FMC Corporation
+
+^ "Our History | FMC Corp".
+
+^ Turbak AF, Snyder FW, Sandberg KR (1983). "Microfibrillated Cellulose, a New Cellulose Product: Properties, Uses, and Commercial Potential" (PDF). Journal of Applied Polymer Science: Applied Polymer Symposium. 37: 815–827.
+
+^ "Birth of Nanocellulose".
+
+^ a b US 4,374,702, Turbak; Snyder & Sandberg, "Microfibrillated cellulose", published 1983-02-23, assigned to International Telephone and Telegraph Corporation, New York, N.Y
+
+^ Herrick FW, Casebier RL, Hamilton JK, Sandberg KR (January 1983). "Microfibrillated cellulose: Morphology and accessibility". J. Appl. Polym. Sci.: Appl. Polym. Symp.; (United States). 37. OSTI 5039044.
+
+^ Turbak, A.F., Snyder, F.W. and Sandberg, K.R. (1984) "Microfibrillated Cellulose—A New Composition of Commercial Significance," 1984 Nonwovens Symposium, Myrtle Beach, SC, Apr. 16–19. TAPPI Press, Atlanta, GA. pp 115–124.
+
+^ Ankerfors M (2012). Microfibrillated cellulose: Energy-efficient preparation techniques and key properties (PDF) (Licentiate thesis). Sweden: Royal Institute of Technology. ISBN 978-91-7501-464-7.
+
+^ Almashhadani AQ, Leh CP, Chan SY, Lee CY, Goh CF (June 2022). "Nanocrystalline cellulose isolation via acid hydrolysis from non-woody biomass: Importance of hydrolysis parameters". Carbohydrate Polymers. 286: 119285. doi:10.1016/j.carbpol.2022.119285. PMID 35337507.
+
+^ Abbasi A, Makhtoumi Y, Wu Y, Chen G (June 1, 2024). "Characterization of cellulose nanocrystal extracted from household waste and its application for seed germination". Carbohydrate Polymer Technologies and Applications. 7: 100409. doi:10.1016/j.carpta.2023.100409. ISSN 2666-8939.
+
+^ El Achaby M, Kassab Z, Aboulkas A, Gaillard C, Barakat A (January 2018). "Reuse of red algae waste for the production of cellulose nanocrystals and its application in polymer nanocomposites" (PDF). International Journal of Biological Macromolecules. 106: 681–691. doi:10.1016/j.ijbiomac.2017.08.067. PMID 28823511.
+
+^ "Marcus Wallenberg Prize: 2015 – Akira Isogai, Tsuguyuki Saito, Japan, and Yoshiharu Nishiyama, France". mwp.org/. March 16, 2015. Retrieved January 23, 2018.
+
+^ Sharma PR, Joshi R, Sharma SK, Hsiao BS (August 2017). "A Simple Approach to Prepare Carboxycellulose Nanofibers from Untreated Biomass". Biomacromolecules. 18 (8): 2333–2342. doi:10.1021/acs.biomac.7b00544. PMID 28644013.
+
+^ Sharma PR, Zheng B, Sunil KS, Zhan C, Wang R, Bhatia SR, et al. (2018). "High Aspect Ratio Carboxycellulose Nanofibers Prepared by Nitro-Oxidation Method and Their Nanopaper Properties". ACS Applied Nano Materials. 1 (8): 3969–3980. doi:10.1021/acsanm.8b00744. S2CID 139513681.
+
+^ Sharma PR, Chattopadhyay A, Sunil KS, Lihong GS, Benjamin SH (2018). "Lead removal from water using carboxycellulose nanofibers prepared by nitro-oxidation method". Cellulose. 25 (3): 1961–1973. doi:10.1007/s10570-018-1659-9. S2CID 103880950.
+
+^ Sharma PR, Chattopadhyay A, Sharma SK, Geng L, Amiralian N, Martin D, et al. (2018). "Nanocellulose from Spinifex as an Effective Adsorbent to Remove Cadmium(II) from Water". ACS Sustainable Chemistry & Engineering. 6 (3): 3279–3290. doi:10.1021/acssuschemeng.7b03473.
+
+^ Sharma PR, Chattopadhyay A, Sharma SK, Hsiao BS (2017). "Efficient Removal of UO22+ from Water Using Carboxycellulose Nanofibers Prepared by the Nitro-Oxidation Method". Industrial & Engineering Chemistry Research. 56 (46): 13885–13893. doi:10.1021/acs.iecr.7b03659.
+
+^ "Nanocellulose - NaNo Research GROUP @ ICAR-CIRCOT, Mumbai".
+
+^ "Nanowhiskers - an overview | ScienceDirect Topics".
+
+^ Reid MS, Villalobos M, Cranston ED (February 21, 2017). "Benchmarking Cellulose Nanocrystals: From the Laboratory to Industrial Production". Langmuir. 33 (7): 1583–1598. doi:10.1021/acs.langmuir.6b03765. hdl:11375/21951. ISSN 0743-7463. PMID 27959566.
+
+^ Delepierre G, Vanderfleet OM, Niinivaara E, Zakani B, Cranston ED (July 20, 2021). "Benchmarking Cellulose Nanocrystals Part II: New Industrially Produced Materials". Langmuir. 37 (28): 8393–8409. doi:10.1021/acs.langmuir.1c00550. ISSN 0743-7463. PMID 34250804.
+
+^ Sharma PR, Varma AJ (October 2013). "Functional nanoparticles obtained from cellulose: engineering the shape and size of 6-carboxycellulose". Chemical Communications. 49 (78): 8818–8820. doi:10.1039/c3cc44551h. PMID 23959448.
+
+^ Chinga-Carrasco G, Yu Y, Diserud O (August 2011). "Quantitative electron microscopy of cellulose nanofibril structures from Eucalyptus and Pinus radiata kraft pulp fibers". Microscopy and Microanalysis. 17 (4): 563–571. Bibcode:2011MiMic..17..563C. doi:10.1017/S1431927611000444. PMID 21740618. S2CID 2010930.
+
+^ Chinga-Carrasco G, Miettinen A, Luengo Hendriks CL, Gamstedt EK, Kataja M (2011). Structural Characterisation of Kraft Pulp Fibres and Their Nanofibrillated Materials for Biodegradable Composite Applications. InTech. ISBN 978-953-307-352-1.
+
+^ Chinga-Carrasco G (June 2011). "Cellulose fibres, nanofibrils and microfibrils: The morphological sequence of MFC components from a plant physiology and fibre technology point of view". Nanoscale Research Letters. 6 (1): 417. Bibcode:2011NRL.....6..417C. doi:10.1186/1556-276X-6-417. PMC 3211513. PMID 21711944.
+
+^ a b c d Pääkkö M, Ankerfors M, Kosonen H, Nykänen A, Ahola S, Osterberg M, et al. (June 2007). "Enzymatic hydrolysis combined with mechanical shearing and high-pressure homogenization for nanoscale cellulose fibrils and strong gels". Biomacromolecules. 8 (6): 1934–1941. doi:10.1021/bm061215p. PMID 17474776.
+
+^ Li Q, Renneckar S (March 2011). "Supramolecular structure characterization of molecularly thin cellulose I nanoparticles". Biomacromolecules. 12 (3): 650–659. doi:10.1021/bm101315y. PMID 21210665.
+
+^ Wågberg L, Decher G, Norgren M, Lindström T, Ankerfors M, Axnäs K (February 2008). "The build-up of polyelectrolyte multilayers of microfibrillated cellulose and cationic polyelectrolytes". Langmuir. 24 (3): 784–795. doi:10.1021/la702481v. PMID 18186655.
+
+^ a b c Fukuzumi H, Saito T, Iwata T, Kumamoto Y, Isogai A (January 2009). "Transparent and high gas barrier films of cellulose nanofibers prepared by TEMPO-mediated oxidation". Biomacromolecules. 10 (1): 162–165. doi:10.1021/bm801065u. PMID 19055320.
+
+^ a b c Aulin C, Ahola S, Josefsson P, Nishino T, Hirose Y, Osterberg M, et al. (July 2009). "Nanoscale cellulose films with different crystallinities and mesostructures--their surface properties and interaction with water". Langmuir. 25 (13): 7675–7685. doi:10.1021/la900323n. PMID 19348478.
+
+^ a b Tatsumi D, Ishioka S, Matsumoto T (2002). "Effect of Fiber Concentration and Axial Ratio on the Rheological Properties of Cellulose Fiber Suspensions". Journal of the Society of Rheology (Japan). 30 (1): 27–32. doi:10.1678/rheology.30.27.
+
+^ a b Henriksson M, Berglund LA, Isaksson P, Lindström T, Nishino T (June 2008). "Cellulose nanopaper structures of high toughness". Biomacromolecules. 9 (6): 1579–1585. doi:10.1021/bm800038n. PMID 18498189.
+
+^ a b c "Why wood pulp is world's new wonder material – tech – 23 August 2012". New Scientist. Retrieved August 30, 2012.
+
+^ a b Mittal N, Ansari F, Gowda VK, Brouzet C, Chen P, Larsson PT, et al. (July 2018). "Multiscale Control of Nanocellulose Assembly: Transferring Remarkable Nanoscale Fibril Mechanics to Macroscale Fibers". ACS Nano. 12 (7): 6378–6388. doi:10.1021/acsnano.8b01084. PMID 29741364.
+
+^ a b c Aulin C, Gällstedt M, Lindström T (2010). "Oxygen and oil barrier properties of microfibrillated cellulose films and coatings". Cellulose. 17 (3): 559–574. doi:10.1007/s10570-009-9393-y. S2CID 137623000.
+
+^ Syverud K, Stenius P (2009). "Strength and barrier properties of MFC films". Cellulose. 16 (1): 75–85. doi:10.1007/s10570-008-9244-2. S2CID 136647719.
+
+^ Chinga-Carrasco G, Syverud K (March 2012). "On the structure and oxygen transmission rate of biodegradable cellulose nanobarriers". Nanoscale Research Letters. 7 (1): 192. Bibcode:2012NRL.....7..192C. doi:10.1186/1556-276X-7-192. PMC 3324384. PMID 22429336.
+
+^ Henriksson M, Berglund L (2007). "Structure and properties of cellulose nanocomposite films containing melamine formaldehyde" (PDF). Journal of Applied Polymer Science. 106 (4): 2817–2824. doi:10.1002/app.26946.[permanent dead link‍]
+
+^ Svagan AJ, Samir MA, Berglund LA (August 2007). "Biomimetic polysaccharide nanocomposites of high cellulose content and high toughness". Biomacromolecules. 8 (8): 2556–2563. doi:10.1021/bm0703160. PMID 17655354.
+
+^ Diddens I, Murphy B, Krisch M, Müller M (2008). "Anisotropic elastic properties of cellulose measured using inelastic x-ray scattering". Macromolecules. 41 (24): 9755–9759. Bibcode:2008MaMol..41.9755D. doi:10.1021/ma801796u.
+
+^ Thielemans W, Warbey CR, Walsh DA (2009). "Permselective nanostructured membranes based on cellulose nanowhiskers". Green Chemistry. 11 (4): 531–537. doi:10.1039/b818056c.
+
+^ Mohan T, Niegelhell K, Zarth CS, Kargl R, Köstler S, Ribitsch V, et al. (November 2014). "Triggering protein adsorption on tailored cationic cellulose surfaces". Biomacromolecules. 15 (11): 3931–3941. doi:10.1021/bm500997s. PMID 25233035.
+
+^ Vuoriluoto M, Orelma H, Johansson LS, Zhu B, Poutanen M, Walther A, et al. (December 2015). "Effect of Molecular Architecture of PDMAEMA-POEGMA Random and Block Copolymers on Their Adsorption on Regenerated and Anionic Nanocelluloses and Evidence of Interfacial Water Expulsion". The Journal of Physical Chemistry B. 119 (49): 15275–15286. doi:10.1021/acs.jpcb.5b07628. PMID 26560798.
+
+^ Revol JF, Bradford H, Giasson J, Marchessault RH, Gray DG (June 1992). "Helicoidal self-ordering of cellulose microfibrils in aqueous suspension". International Journal of Biological Macromolecules. 14 (3): 170–172. doi:10.1016/S0141-8130(05)80008-X. PMID 1390450.
+
+^ Nyström G, Arcari M, Adamcik J, Usov I, Mezzenga R (June 2018). "Nanocellulose Fragmentation Mechanisms and Inversion of Chirality from the Single Particle to the Cholesteric Phase". ACS Nano. 12 (6): 5141–5148. arXiv:1705.06620. doi:10.1021/acsnano.8b00512. PMID 29758157. S2CID 29165853.
+
+^ Nordenström M, Fall A, Nyström G, Wågberg L (September 2017). "Formation of Colloidal Nanocellulose Glasses and Gels". Langmuir. 33 (38): 9772–9780. doi:10.1021/acs.langmuir.7b01832. PMID 28853581.
+
+^ Bertsch P, Isabettini S, Fischer P (December 2017). "Ion-Induced Hydrogel Formation and Nematic Ordering of Nanocrystalline Cellulose Suspensions". Biomacromolecules. 18 (12): 4060–4066. doi:10.1021/acs.biomac.7b01119. PMID 29028331.
+
+^ Bertsch P, Schneider L, Bovone G, Tibbitt MW, Fischer P, Gstöhl S (October 2019). "Injectable Biocompatible Hydrogels from Cellulose Nanocrystals for Locally Targeted Sustained Drug Release". ACS Applied Materials & Interfaces. 11 (42): 38578–38585. doi:10.1021/acsami.9b15896. PMID 31573787. S2CID 203638916.
+
+^ Siqueira G, Kokkinis D, Libanori R, Hausmann MK, Gladman AS, Neels A, et al. (March 2017). "Cellulose Nanocrystal Inks for 3D Printing of Textured Cellular Architectures". Advanced Functional Materials. 27 (12): 1604619. doi:10.1002/adfm.201604619. S2CID 33952694.
+
+^ Svagan A, Azizi Samir MA, Berglund LA (2008). "Biomimetic foams of high mechanical performance based on nanostructured cell walls reinforced by native nanofibrils". Advanced Materials. 20 (7): 1263–1269. doi:10.1002/adma.200701215. S2CID 136370943.
+
+^ Pääkkö M, Vapaavuori J, Silvennoinen R, Kosonen H, Ankerfors M, Lindström T, et al. (2008). "Long and entangled nantive cellulose I nanofibers allow flexible aerogels and hierarchically templates for functionalities". Soft Matter. 4 (12): 2492–2499. Bibcode:2008SMat....4.2492P. doi:10.1039/b810371b.
+
+^ a b Heath L, Thielemans W (2010). "Cellulose nanowhisker aerogels". Green Chemistry. 12 (8): 1448–1453. doi:10.1039/c0gc00035c.
+
+^ Sehaqui H, Salajková M, Zhou Q, Berglund LA (2010). "Mechanical performance tailoring of tough ultra-high porosity foams prepared from cellulose I nanofiber suspensions". Soft Matter. 6 (8): 1824–1832. Bibcode:2010SMat....6.1824S. doi:10.1039/b927505c.
+
+^ Aulin C, Netrval J, Wågberg L, Lindström T (2010). "Aerogels from nanofibrillated cellulose with tunable oleophobicity". Soft Matter. 6 (14): 3298. Bibcode:2010SMat....6.3298A. doi:10.1039/c001939a.
+
+^ Olsson RT, Azizi Samir MA, Salazar-Alvarez G, Belova L, Ström V, Berglund LA, et al. (August 2010). "Making flexible magnetic aerogels and stiff magnetic nanopaper using cellulose nanofibrils as templates". Nature Nanotechnology. 5 (8): 584–588. Bibcode:2010NatNa...5..584O. doi:10.1038/nnano.2010.155. PMID 20676090.
+
+^ Kalashnikova I, Bizot H, Cathala B, Capron I (June 2011). "New Pickering emulsions stabilized by bacterial cellulose nanocrystals". Langmuir. 27 (12): 7471–7479. doi:10.1021/la200971f. PMID 21604688.
+
+^ Kalashnikova I, Bizot H, Bertoncini P, Cathala B, Capron I (2013). "Cellulosic nanorods of various aspect ratios for oil in water Pickering emulsions". Soft Matter. 9 (3): 952–959. Bibcode:2013SMat....9..952K. doi:10.1039/C2SM26472B.
+
+^ Bergfreund J, Sun Q, Fischer P, Bertsch P (November 2019). "Adsorption of charged anisotropic nanoparticles at oil-water interfaces". Nanoscale Advances. 1 (11): 4308–4312. Bibcode:2019NanoA...1.4308B. doi:10.1039/C9NA00506D. PMC 9419606. PMID 36134395.
+
+^ Bai L, Lv S, Xiang W, Huan S, McClements DJ, Rojas OJ (November 2019). "Oil-in-water Pickering emulsions via microfluidization with cellulose nanocrystals: 1. Formation and stability". Food Hydrocolloids. 96: 699–708. doi:10.1016/j.foodhyd.2019.04.038.
+
+^ Scheuble N, Schaffner J, Schumacher M, Windhab EJ, Liu D, Parker H, et al. (May 2018). "Tailoring Emulsions for Controlled Lipid Release: Establishing in vitro-in Vivo Correlation for Digestion of Lipids". ACS Applied Materials & Interfaces. 10 (21): 17571–17581. doi:10.1021/acsami.8b02637. PMID 29708724.
+
+^ Bertsch P, Steingoetter A, Arnold M, Scheuble N, Bergfreund J, Fedele S, et al. (August 2022). "Lipid emulsion interfacial design modulates human in vivo digestion and satiation hormone response". Food & Function. 13 (17): 9010–9020. doi:10.1039/D2FO01247B. hdl:20.500.11850/564599. PMC 9426722. PMID 35942900.
+
+^ Bertsch P, Arcari M, Geue T, Mezzenga R, Nyström G, Fischer P (December 2019). "Designing Cellulose Nanofibrils for Stabilization of Fluid Interfaces". Biomacromolecules. 20 (12): 4574–4580. doi:10.1021/acs.biomac.9b01384. PMID 31714073. S2CID 207943524.
+
+^ Jin H, Zhou W, Cao J, Stoyanov SD, Blijdenstein TB, De Groot PW, et al. (2012). "Super stable foams stabilized by colloidal ethyl cellulose particles". Soft Matter. 8 (7): 2194–2205. Bibcode:2012SMat....8.2194J. doi:10.1039/c1sm06518a.
+
+^ Lee KY, Blaker JJ, Murakami R, Heng JY, Bismarck A (January 2014). "Phase behavior of medium and high internal phase water-in-oil emulsions stabilized solely by hydrophobized bacterial cellulose nanofibrils". Langmuir. 30 (2): 452–460. doi:10.1021/la4032514. PMID 24400918.
+
+^ Saidane D, Perrin E, Cherhal F, Guellec F, Capron I (July 2016). "Some modification of cellulose nanocrystals for functional Pickering emulsions". Philosophical Transactions. Series A, Mathematical, Physical, and Engineering Sciences. 374 (2072): 20150139. Bibcode:2016RSPTA.37450139S. doi:10.1098/rsta.2015.0139. PMC 4920285. PMID 27298429.
+
+^ Peddireddy KR, Nicolai T, Benyahia L, Capron I (March 2016). "Stabilization of Water-in-Water Emulsions by Nanorods". ACS Macro Letters. 5 (3): 283–286. doi:10.1021/acsmacrolett.5b00953. PMID 35614722.
+
+^ a b Guan QF, Yang HB, Han ZM, Zhou LC, Zhu YB, Ling ZC, et al. (May 2020). "Lightweight, tough, and sustainable cellulose nanofiber-derived bulk structural materials with low thermal expansion coefficient". Science Advances. 6 (18). American Association for the Advancement of Science: eaaz1114. Bibcode:2020SciA....6.1114G. doi:10.1126/sciadv.aaz1114. PMC 7195169. PMID 32494670.
+
+^ Eichhorn SJ, Dufresne A, Aranguren M, Marcovich NE, Capadona JR, Rowan SJ, et al. (2010). "Review: current international research into cellulose nanofibres and nanocomposites" (PDF). Journal of Materials Science. 45 (1): 1–33. Bibcode:2010JMatS..45....1E. doi:10.1007/s10853-009-3874-0. S2CID 137519458.
+
+^ Labet M, Thielemans W (2011). "Improving the reproducibility of chemical reactions on the surface of cellulose nanocrystals: ROP of e-caprolactone as a case study". Cellulose. 18 (3): 607–617. doi:10.1007/s10570-011-9527-x. S2CID 93187820.
+
+^ Vartiainen J, Pöhler T, Sirola K, Pylkkänen L, Alenius H, Hokkinen J, et al. (2011). "Health and environmental safety aspects of friction grinding and spray drying of microfibrillated cellulose". Cellulose. 18 (3): 775–786. doi:10.1007/s10570-011-9501-7. S2CID 137455453.
+
+^ Cao X, Zhang T, DeLoid GM, Gaffrey MJ, Weitz KK, Thrall BD, et al. (October 2020). "Cytotoxicity and cellular proteome impact of cellulose nanocrystals using simulated digestion and an in vitro small intestinal epithelium cellular model". NanoImpact. 20: 100269. Bibcode:2020NanoI..2000269C. doi:10.1016/j.impact.2020.100269.
+
+^ Mortensen NP, Moreno Caffaro M, Davis K, Aravamudhan S, Sumner SJ, Fennell TR (August 2022). "Investigation of eight cellulose nanomaterials' impact on Differentiated Caco-2 monolayer integrity and cytotoxicity". Food and Chemical Toxicology. 166: 113204. doi:10.1016/j.fct.2022.113204. PMID 35679974.
+
+^ Lin YJ, Qin Z, Paton CM, Fox DM, Kong F (July 2021). "Influence of cellulose nanocrystals (CNC) on permeation through intestinal monolayer and mucus model in vitro". Carbohydrate Polymers. 263: 117984. doi:10.1016/j.carbpol.2021.117984. PMID 33858577.
+
+^ DeLoid GM, Cao X, Molina RM, Silva DI, Bhattacharya K, Ng KW, et al. (July 2019). "Toxicological effects of ingested nanocellulose in in vitro intestinal epithelium and in vivo rat models". Environmental Science: Nano. 6 (7): 2105–2115. doi:10.1039/c9en00184k. hdl:10356/150824. PMC 7055654. PMID 32133146.
+
+^ Ede JD, Ong KJ, Mulenos MR, Pradhan S, Gibb M, Sayes CM, et al. (December 2020). "Physical, chemical, and toxicological characterization of sulfated cellulose nanocrystals for food-related applications using in vivo and in vitro strategies". Toxicology Research. 9 (6): 808–822. doi:10.1093/TOXRES/TFAA082. PMC 7786165. PMID 33447365.
+
+^ Khare S, DeLoid GM, Molina RM, Gokulan K, Couvillion SP, Bloodsworth KJ, et al. (April 2020). "Effects of ingested nanocellulose on intestinal microbiota and homeostasis in Wistar Han rats". NanoImpact. 18: 100216. Bibcode:2020NanoI..1800216K. doi:10.1016/j.impact.2020.100216. PMC 7080203. PMID 32190784.
+
+^ Brown EE, Hu D, Abu Lail N, Zhang X (April 2013). "Potential of nanocrystalline cellulose-fibrin nanocomposites for artificial vascular graft applications". Biomacromolecules. 14 (4): 1063–1071. doi:10.1021/bm3019467. PMID 23421631.
+
+^ Li S, Lee PS (2017). "Development and applications of transparent conductive nanocellulose paper". Science and Technology of Advanced Materials. 18 (1): 620–633. Bibcode:2017STAdM..18..620L. doi:10.1080/14686996.2017.1364976. PMC 5613913. PMID 28970870.
+
+^ a b Jung YH, Chang TH, Zhang H, Yao C, Zheng Q, Yang VW, et al. (May 2015). "High-performance green flexible electronics based on biodegradable cellulose nanofibril paper". Nature Communications. 6: 7170. Bibcode:2015NatCo...6.7170J. doi:10.1038/ncomms8170. PMC 4455139. PMID 26006731.
+
+^ Taipale T, Österberg M, Nykänen A, Ruokolainen J, Laine J (2010). "Effect of microfibrillated cellulose and fines on the drainage of kraft pulp suspension and paper strength". Cellulose. 17 (5): 1005–1020. doi:10.1007/s10570-010-9431-9. S2CID 137591806.
+
+^ Eriksen Ø, Syverud K, Gregersen ØW (2008). "The use of microfibrillated cellulose produced from kraft pulp as strength enhancer in TMP paper". Nordic Pulp & Paper Research Journal. 23 (3): 299–304. doi:10.3183/npprj-2008-23-03-p299-304. S2CID 139009497.
+
+^ Ahola S, Österberg M, Laine J (2007). "Cellulose nanofibrils—adsorption with poly(amideamine) epichlorohydrin studied by QCM-D and application as a paper strength additive". Cellulose. 15 (2): 303–314. doi:10.1007/s10570-007-9167-3. S2CID 136939100.
+
+^ a b Syverud K, Stenius P (2008). "Strength and barrier properties of MFC films". Cellulose. 16: 75–85. doi:10.1007/s10570-008-9244-2. S2CID 136647719.
+
+^ a b Aulin C, Gällstedt M, Lindström T (2010). "Oxygen and oil barrier properties of microfibrillated cellulose films and coatings". Cellulose. 17 (3): 559–574. doi:10.1007/s10570-009-9393-y. S2CID 137623000.
+
+^ Lavoine N, Desloges I, Dufresne A, Bras J (October 2012). "Microfibrillated cellulose - its barrier properties and applications in cellulosic materials: a review". Carbohydrate Polymers. 90 (2): 735–764. doi:10.1016/j.carbpol.2012.05.026. PMID 22839998.
+
+^ Missoum K, Martoïa F, Belgacem MN, Bras J (2013). "Effect of chemically modified nanofibrillated cellulose addition on the properties of fiber-based materials". Industrial Crops and Products. 48: 98–105. doi:10.1016/j.indcrop.2013.04.013.
+
+^ a b c Kumar V, Elfving A, Koivula H, Bousfield D, Toivakka M (March 30, 2016). "Roll-to-Roll Processed Cellulose Nanofiber Coatings". Industrial & Engineering Chemistry Research. 55 (12): 3603–3613. doi:10.1021/acs.iecr.6b00417. ISSN 0888-5885.
+
+^ a b Lavoine N, Desloges I, Dufresne A, Bras J (April 2014). "Impact of different coating processes of microfibrillated cellulose on the mechanical and barrier properties of paper". Journal of Materials Science. 49 (7): 2879–2893. Bibcode:2014JMatS..49.2879L. doi:10.1007/s10853-013-7995-0. ISSN 0022-2461. S2CID 137327179.
+
+^ Mousavi SM, Bousfield D (2016). "Cellulose nanofibers with higher solid content as a coating material to improve structure and barrier properties of paperboard". TAPPI Conference Proceedings: 1–7.
+
+^ Beneventi D, Chaussy D, Curtil D, Zolin L, Gerbaldi C, Penazzi N (July 9, 2014). "Highly Porous Paper Loading with Microfibrillated Cellulose by Spray Coating on Wet Substrates". Industrial & Engineering Chemistry Research. 53 (27): 10982–10989. doi:10.1021/ie500955x. ISSN 0888-5885.
+
+^ Kinnunen-Raudaskoski K (2014). "Thin coatings for paper by foam coating". TAPPI Journal. 13 (7): 9–19. doi:10.32964/TJ13.7.9.
+
+^ "Microfibrillated Cellulose in Barrier Coating Applications". October 2019. Retrieved January 27, 2020.
+
+^ "Threads of nanocellulose stronger than spider silk". October 17, 2018. Retrieved June 29, 2020.
+
+^ Alves L, Ferraz E, Gamelas JA (October 2019). "Composites of nanofibrillated cellulose with clay minerals: A review". Advances in Colloid and Interface Science. 272: 101994. doi:10.1016/j.cis.2019.101994. PMID 31394436. S2CID 199507603.
+
+^ Alves L, Ferraz E, Gamelas JA (August 5, 2015). "Composite Films Based on Nanocellulose and Nanoclay Minerals as High Strength Materials with Gas Barrier Capabilities: Key Points and Challenges". BioResources. 10 (4): 6310–6313. doi:10.15376/biores.10.4.6310-6313. hdl:10400.26/38419. ISSN 1930-2126.
+
+^ Gómez HC, Serpa A, Velásquez-Cock J, Gañán P, Castro C, Vélez L, et al. (June 1, 2016). "Vegetable nanocellulose in food science: A review". Food Hydrocolloids. 57: 178–186. doi:10.1016/j.foodhyd.2016.01.023. ISSN 0268-005X.
+
+^ Xhanari K, Syverud K, Stenius P (2011). "Emulsions stabilized by microfibrillated cellulose: the effect of hydrophobization, concentration and o/w ratio". Dispersion Science and Technology. 32 (3): 447–452. doi:10.1080/01932691003658942. S2CID 98317845.
+
+^ Lif A, Stenstad P, Syverud K, Nydén M, Holmberg K (December 2010). "Fischer-Tropsch diesel emulsions stabilised by microfibrillated cellulose and nonionic surfactants". Journal of Colloid and Interface Science. 352 (2): 585–592. Bibcode:2010JCIS..352..585L. doi:10.1016/j.jcis.2010.08.052. PMID 20864117.
+
+^ Syverud K, Kirsebom H, Hajizadeh S, Chinga-Carrasco G (December 2011). "Cross-linking cellulose nanofibrils for potential elastic cryo-structured gels". Nanoscale Research Letters. 6 (1): 626. Bibcode:2011NRL.....6..626S. doi:10.1186/1556-276X-6-626. PMC 3260332. PMID 22152032.
+
+^ Granberg H, Håkansson K, Fall A, Wågberg P (May 5–8, 2019). Electroactive papers, films, filaments, aerogels and hydrogels to realize the future of bio-based electronics. Indianapolis, USA: TAPPI Press. p. artikel-id PF4.1.
+
+^ Malti A, Edberg J, Granberg H, Khan ZU, Andreasen JW, Liu X, et al. (February 2016). "An Organic Mixed Ion-Electron Conductor for Power Electronics". Advanced Science. 3 (2): 1500305. doi:10.1002/advs.201500305. PMC 5063141. PMID 27774392.
+
+^ Hamedi MM, Hajian A, Fall AB, Håkansson K, Salajkova M, Lundell F, et al. (March 2014). "Highly conducting, strong nanocomposites based on nanocellulose-assisted aqueous dispersions of single-wall carbon nanotubes". ACS Nano. 8 (3): 2467–2476. doi:10.1021/nn4060368. PMID 24512093.
+
+^ Erlandsson J, López Durán V, Granberg H, Sandberg M, Larsson PA, Wågberg L (December 1, 2016). "Macro- and mesoporous nanocellulose beads for use in energy storage devices". Applied Materials Today. 5: 246–254. doi:10.1016/j.apmt.2016.09.008. ISSN 2352-9407.
+
+^ a b Nyström G, Marais A, Karabulut E, Wågberg L, Cui Y, Hamedi MM (May 2015). "Self-assembled three-dimensional and compressible interdigitated thin-film supercapacitors and batteries". Nature Communications. 6: 7259. Bibcode:2015NatCo...6.7259N. doi:10.1038/ncomms8259. PMC 4458871. PMID 26021485.
+
+^ Wu C, Wang AC, Ding W, Guo H, Wang ZL (2019). "Triboelectric Nanogenerator: A Foundation of the Energy for the New Era". Advanced Energy Materials. 9 (1): 1802906. Bibcode:2019AdEnM...902906W. doi:10.1002/aenm.201802906. ISSN 1614-6840.
+
+^ Gray DG, Mu X (November 2015). "Chiral Nematic Structure of Cellulose Nanocrystal Suspensions and Films; Polarized Light and Atomic Force Microscopy". Materials. 8 (11): 7873–7888. Bibcode:2015Mate....8.7873G. doi:10.3390/ma8115427. PMC 5458898. PMID 28793684.
+
+^ Toivonen MS, Onelli OD, Jacucci G, Lovikka V, Rojas OJ, Ikkala O, et al. (April 2018). "Anomalous-Diffusion-Assisted Brightness in White Cellulose Nanofibril Membranes". Advanced Materials. 30 (16): e1704050. Bibcode:2018AdM....3004050T. doi:10.1002/adma.201704050. PMID 29532967.
+
+^ WO application 2016174104 A1, Dandekar T, "Modified bacterial nanocellulose and its uses in chip cards and medicine", published 2016-11-03, assigned to Julius-Maximilians-Universität Würzburg
+
+^ US 9222174, Garner A, "Corrosion inhibitor comprising cellulose nanocrystals and cellulose nanocrystals in combination with a corrosion inhibitor", issued 29 December 2015, assigned to Nanohibitor Technology Inc.
+
+^ US 9359678, Garner A, "Use of charged cellulose nanocrystals for corrosion inhibition and a corrosion inhibiting composition comprising the same", issued 7 June 2016, assigned to Nanohibitor Technology Inc.
+
+^ Kokkonen M, Nelo M, Liimatainen H, Ukkola J, Tervo N, Myllymäki S, et al. (February 7, 2022). "Wood-based composite materials for ultralight lens antennas in 6G systems". Materials Advances. 3 (3): 1687–1694. doi:10.1039/D1MA00644D. S2CID 245723621.
+
+
+
+Wikimedia Commons has media related to Cellulose derivatives.
+
+v t e Wood products Lumber / timber Batten Beam Bressummer CLS Cruck Flitch beam Flooring Joist Lath Log building Log cabin Log house Molding Panelling Plank Plate Post Purlin Rafter Railroad ties Reclaimed Shingle Siding Sill Stud Timber truss Treenail Truss Utility pole Engineered wood Cross-laminated timber Glued laminated timber veneer LVL parallel strand I-joist Fiberboard hardboard Masonite MDF Oriented strand board Oriented structural straw board Particle board Plywood Structural insulated panel Wood–plastic composite lumber Fuelwood Charcoal biochar Firelog Firewood Pellet fuel Wood fuel Fibers Cardboard Corrugated fiberboard Paper Paperboard Pulp Pulpwood Rayon Derivatives Birch-tar Cellulose nano Hemicellulose Cellulosic ethanol Dyes Lignin Liquid smoke Lye Methanol Pyroligneous acid Pine tar Pitch Sandalwood oil Tannin Wood gas By-products Barkdust Black liquor Ramial chipped wood Sawdust Tall oil Wood flour Wood wool Woodchips Historical Axe ties Bavin (wood) Billet (wood) Clapboard Dugout canoe Potash Sawdust brandy Split-rail fence Tanbark Timber framing Wooden masts See also Biomass Certified wood Destructive distillation Dry distillation Engineered bamboo Forestry Green building and wood List of woods Mulch Non-timber forest products Natural building Papermaking Reclaimed lumber Timber recycling Wood drying Wood preservation Wood processing Woodworking Yakisugi Category Commons WikiProject Forestry
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Nanocellulose&oldid=1277730506"
+
+Categories:
+
+Polymers
+
+Cellulose
+
+Nanoparticles by composition
+
+Wood products
+
+Biomaterials
+
+Hidden categories:
+
+All articles with dead external links
+
+Articles with dead external links from April 2020
+
+Articles with permanently dead external links
+
+Articles with short description
+
+Short description matches Wikidata
+
+Use mdy dates from August 2024
+
+All articles with unsourced statements
+
+Articles with unsourced statements from March 2017
+
+Wikipedia articles needing page number citations from March 2017
+
+Wikipedia articles needing clarification from May 2013
+
+Commons category link is locally defined
