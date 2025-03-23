@@ -368,40 +368,4 @@ Lecture on Spin transport by S. Datta (from Datta Das transistor)—Part 1 and P
 
 v t e Electronics Branches Analogue electronics Digital electronics Electronic engineering Instrumentation Microelectronics Optoelectronics Power electronics Printed electronics Semiconductor Schematic capture Thermal management Advanced topics 2020s in computing Atomtronics Bioelectronics List of emerging electronics Failure of electronic components Flexible electronics Low-power electronics Molecular electronics Nanoelectronics Organic electronics Photonics Piezotronics Quantum electronics Spintronics Electronic equipment Air conditioner Central heating Clothes dryer Computer / Notebook Camera Dishwasher Freezer Home robot Home cinema Home theater PC Information technology Cooker Microwave oven Mobile phone Networking hardware Portable media player Radio Refrigerator Robotic vacuum cleaner Tablet Telephone Television Water heater Video game console Washing machine Applications Audio equipment Automotive electronics Avionics Control system Data acquisition e-book e-health Electromagnetic warfare Electronics industry Embedded system Home appliance Home automation Integrated circuit Home appliance Consumer electronics Major appliance Small appliance Marine electronics Microwave technology Military electronics Multimedia Nuclear electronics Open-source hardware Radar and Radio navigation Radio electronics Terahertz technology Wired and Wireless Communications
 
-v t e Emerging technologies Fields Electronics E-textiles Electronic nose Flexible electronics Memristor Molecular electronics Nanoelectromechanical systems Spintronics Thermal copper pillar bump Twistronics Topics Automation Collingridge dilemma Differential technological development Disruptive innovation Ephemeralization Ethics Bioethics Cyberethics Neuroethics Robot ethics Exploratory engineering Proactionary principle Technological change Technological unemployment Technological convergence Technological evolution Technological paradigm Technology forecasting Accelerating change Future-oriented technology analysis Horizon scanning Moore's law Technological singularity Technology scouting Technology in science fiction Technology readiness level Technology roadmap Transhumanism List
-
-Authority control databases International FAST National Germany United States France BnF data Japan Czech Republic Spain Israel
-
-Retrieved from "https://en.wikipedia.org/w/index.php?title=Spintronics&oldid=1278303025"
-
-Categories:
-
-Spintronics
-
-Electronics
-
-Quantum electronics
-
-Condensed matter physics
-
-Theoretical computer science
-
-Non-volatile memory
-
-Solid-state computer storage
-
-Hidden categories:
-
-Webarchive template wayback links
-
-Articles with short description
-
-Short description matches Wikidata
-
-Use American English from January 2019
-
-All Wikipedia articles written in American English
-
-Use dmy dates from March 2025
-
-CS1 errors: missing periodical
+v t e Emerging technologies Fields Electronics E-textiles Electronic nose Flexible electronics Memristor Molecular electronics Nanoelectromechanical systems Spintronics Thermal copper pillar bump Twistronics Topics Automation Collingridge

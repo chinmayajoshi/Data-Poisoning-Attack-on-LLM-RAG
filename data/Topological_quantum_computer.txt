@@ -258,32 +258,4 @@ v t e Quantum information science General DiVincenzo's criteria NISQ era Quantum
 
 v t e Quantum electrodynamics Formalism Euler–Heisenberg Lagrangian Feynman diagram Gupta–Bleuler formalism Path integral formulation Particles Dual photon Electron Faddeev–Popov ghost Photon Positron Positronium Virtual particles Concepts Anomalous magnetic dipole moment Furry's theorem Klein–Nishina formula Landau pole QED vacuum Self-energy Schwinger limit Uehling potential Vacuum polarization Vertex function Ward–Takahashi identity Processes Bhabha scattering Breit–Wheeler process Bremsstrahlung Compton scattering Delbrück scattering Lamb shift Møller scattering Schwinger effect Photon-photon scattering See also: Template:Quantum mechanics topics
 
-v t e Quantum field theories Theories Algebraic QFT Axiomatic QFT Conformal field theory Lattice field theory Noncommutative QFT Gauge theory QFT in curved spacetime String theory Supergravity Thermal QFT Topological QFT Two-dimensional conformal field theory Models Regular Born–Infeld Euler–Heisenberg Ginzburg–Landau Non-linear sigma Proca Quantum electrodynamics Quantum chromodynamics Quartic interaction Scalar electrodynamics Scalar chromodynamics Soler Yang–Mills Yang–Mills–Higgs Yukawa Low dimensional 2D Yang–Mills Bullough–Dodd Gross–Neveu Schwinger Sine-Gordon Thirring Thirring–Wess Toda Conformal 2D free massless scalar Liouville Minimal Polyakov Wess–Zumino–Witten Supersymmetric 4D N = 1 N = 1 super Yang–Mills Seiberg–Witten Super QCD Wess–Zumino Superconformal 6D (2,0) ABJM N = 4 super Yang–Mills Supergravity Pure 4D N = 1 4D N = 1 4D N = 8 Higher dimensional Type I Type IIA Type IIB 11D Topological BF Chern–Simons Particle theory Chiral Fermi MSSM Nambu–Jona-Lasinio NMSSM Standard Model Stueckelberg Related Casimir effect Cosmic string History Loop quantum gravity Loop quantum cosmology On shell and off shell Quantum chaos Quantum dynamics Quantum foam Quantum fluctuations links Quantum gravity links Quantum hadrodynamics Quantum hydrodynamics Quantum information Quantum information science links Quantum logic Quantum thermodynamics See also: Template:Quantum mechanics topics
-
-v t e Quantum gravity Central concepts AdS/CFT correspondence Batalin–Vilkovisky formalism CA-duality Causal patch Faddeev–Popov ghost Gravitational anomaly Graviton Holographic principle IR/UV mixing Planck units Quantum foam Ryu–Takayanagi conjecture Trans-Planckian problem Weinberg–Witten theorem Toy models 2+1D topological gravity CGHS model Jackiw–Teitelboim gravity Liouville gravity RST model Topological quantum field theory Quantum field theory in curved spacetime Bunch–Davies vacuum Hawking radiation Semiclassical gravity Unruh effect Black holes Black hole complementarity Black hole information paradox Black-hole thermodynamics Bekenstein bound Bousso's holographic bound Cosmic censorship hypothesis ER = EPR Firewall (physics) Gravitational singularity Approaches String theory Bosonic string theory M-theory Supergravity Superstring theory Canonical quantum gravity Loop quantum gravity Wheeler–DeWitt equation Euclidean quantum gravity Hartle–Hawking state Others Causal dynamical triangulation Causal sets Dual graviton Group field theory Noncommutative geometry Spin foam Superfluid vacuum theory Twistor theory Applications Quantum cosmology Eternal inflation FRW/CFT duality Multiverse See also: Template:Quantum mechanics topics
-
-v t e Quantum mechanics Background Introduction History Timeline Classical mechanics Old quantum theory Glossary Fundamentals Born rule Bra–ket notation Complementarity Density matrix Energy level Ground state Excited state Degenerate levels Zero-point energy Entanglement Hamiltonian Interference Decoherence Measurement Nonlocality Quantum state Superposition Tunnelling Scattering theory Symmetry in quantum mechanics Uncertainty Wave function Collapse Wave–particle duality Formulations Formulations Heisenberg Interaction Matrix mechanics Schrödinger Path integral formulation Phase space Equations Klein–Gordon Dirac Weyl Majorana Rarita–Schwinger Pauli Rydberg Schrödinger Interpretations Bayesian Consistent histories Copenhagen de Broglie–Bohm Ensemble Hidden-variable Local Superdeterminism Many-worlds Objective collapse Quantum logic Relational Transactional Von Neumann–Wigner Experiments Bell test Davisson–Germer Delayed-choice quantum eraser Double-slit Franck–Hertz Mach–Zehnder interferometer Elitzur–Vaidman Popper Quantum eraser Stern–Gerlach Wheeler's delayed choice Science Quantum biology Quantum chemistry Quantum chaos Quantum cosmology Quantum differential calculus Quantum dynamics Quantum geometry Quantum measurement problem Quantum mind Quantum stochastic calculus Quantum spacetime Technology Quantum algorithms Quantum amplifier Quantum bus Quantum cellular automata Quantum finite automata Quantum channel Quantum circuit Quantum complexity theory Quantum computing Timeline Quantum cryptography Quantum electronics Quantum error correction Quantum imaging Quantum image processing Quantum information Quantum key distribution Quantum logic Quantum logic gates Quantum machine Quantum machine learning Quantum metamaterial Quantum metrology Quantum network Quantum neural network Quantum optics Quantum programming Quantum sensing Quantum simulator Quantum teleportation Extensions Quantum fluctuation Casimir effect Quantum statistical mechanics Quantum field theory History Quantum gravity Relativistic quantum mechanics Related Schrödinger's cat in popular culture Wigner's friend EPR paradox Quantum mysticism Category
-
-Retrieved from "https://en.wikipedia.org/w/index.php?title=Topological_quantum_computer&oldid=1281103280"
-
-Categories:
-
-Quantum information science
-
-Classes of computers
-
-Models of computation
-
-Topology
-
-Quantum computing
-
-Hidden categories:
-
-Articles with short description
-
-Short description is different from Wikidata
-
-Use American English from January 2019
-
-All Wikipedia articles written in American English
+v t e Quantum field theories Theories Algebraic QFT Axiomatic QFT Conformal field theory Lattice field theory Noncommutative QFT Gauge theory QFT in curved spacetime String theory Supergravity Thermal QFT Topological QFT Two-dimensional conformal field theory Models Regular Born–Infeld Euler–Heisenberg Ginzburg–Landau Non-linear sigma Proca Quantum electrodynamics Quantum chromodynamics Quartic
