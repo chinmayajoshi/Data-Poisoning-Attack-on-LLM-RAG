@@ -14,23 +14,40 @@ os.environ["STREAMLIT_TORCH_DETECTION"] = "0"
 # Set page config
 st.set_page_config(page_title="RAG App with Groq", layout="wide")
 
-# Initialize session state for chat history
+# Initialize session state for chat history and vector store
 if "messages" not in st.session_state:
     st.session_state.messages = []
+if "current_vectorstore" not in st.session_state:
+    st.session_state.current_vectorstore = "default"
+if "previous_vectorstore" not in st.session_state:
+    st.session_state.previous_vectorstore = "default"
 
-# Load FAISS index and chunks
+# Load FAISS indices and chunks
 @st.cache_resource
-def load_resources():
+def load_all_resources():
     try:
-        index = faiss.read_index("faiss_store/faiss_index.bin")
+        # Load default vector store
+        default_index = faiss.read_index("faiss_store/faiss_index.bin")
         with open("faiss_store/chunks.json", "r") as f:
-            chunks = json.load(f)
+            default_chunks = json.load(f)
+        
+        # Load malicious vector store
+        malicious_index = faiss.read_index("faiss_store/malicious_faiss_index.bin")
+        with open("faiss_store/malicious_chunks.json", "r") as f:
+            malicious_chunks = json.load(f)
+        
+        # Initialize embedding model
         model_name = "intfloat/multilingual-e5-small"
         embed_model = HuggingFaceEmbeddings(model_name=model_name, cache_folder="cached_models/")
-        return index, chunks, embed_model
+        
+        return {
+            "default": {"index": default_index, "chunks": default_chunks},
+            "malicious": {"index": malicious_index, "chunks": malicious_chunks},
+            "embed_model": embed_model
+        }
     except Exception as e:
         st.error(f"Error loading resources: {e}")
-        return None, None, None
+        return None
 
 # Initialize Groq LLM
 @st.cache_resource
@@ -55,14 +72,54 @@ def init_llm():
     except Exception as e:
         st.error(f"Error initializing LLM: {e}")
         return None, "Error loading model"
+    
+# Load resources at startup
+resources = load_all_resources()
+llm, model_name = init_llm()
 
 # App UI
 st.title("RAG Search App")
 
 # Try to load resources with error handling
 try:
-    index, chunks, embed_model = load_resources()
-    llm, model_name = init_llm()
+    # Sidebar for vectorstore selection
+    with st.sidebar:
+        st.header("Vector Store Selection")
+        vectorstore_type = st.radio(
+            "Choose Vector Store", 
+            ["Default", "Malicious"], 
+            index=0 if st.session_state.current_vectorstore == "default" else 1
+        )
+        
+        # Small disclaimer text
+        st.markdown(":warning: Changing vector store will not reset chat history", unsafe_allow_html=True)
+
+        # Convert radio button selection to lowercase for consistency
+        selected_vectorstore = vectorstore_type.lower()
+        
+        # Update current vectorstore
+        st.session_state.current_vectorstore = selected_vectorstore
+
+        # Rest of the sidebar settings
+        st.header("Settings")
+        top_k = st.slider("Number of documents to retrieve", min_value=1, max_value=20, value=5)
+        
+        # Model information display
+        st.subheader("Model Information")
+        st.info(f"LLM: Groq - {model_name}\nEmbedding: intfloat/multilingual-e5-small\nVector Store: {vectorstore_type}")
+        
+        # Clear chat history button
+        if st.button("Clear Chat History"):
+            st.session_state.messages = []
+            try:
+                st.rerun()
+            except Exception:
+                st.success("Chat history cleared. Please refresh the page.")
+
+    # Get current resources
+    current_index = resources[st.session_state.current_vectorstore]["index"]
+    current_chunks = resources[st.session_state.current_vectorstore]["chunks"]
+    embed_model = resources["embed_model"]
 
     # Define the RAG prompt template
     rag_prompt = PromptTemplate(
@@ -90,31 +147,15 @@ try:
         st.error("Cannot create RAG chain without LLM.")
         st.stop()
 
-    with st.sidebar:
-        st.header("Settings")
-        top_k = st.slider("Number of documents to retrieve", min_value=1, max_value=20, value=5)
-        
-        # Model information display
-        st.subheader("Model Information")
-        st.info(f"LLM: Groq - {model_name}\nEmbedding: intfloat/multilingual-e5-small")
-        
-        # Clear chat history button
-        if st.button("Clear Chat History"):
-            st.session_state.messages = []
-            try:
-                st.rerun()
-            except Exception:
-                st.success("Chat history cleared. Please refresh the page.")
-
     # Display chat history
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
-    # User input
+    # Chat input
     query = st.chat_input("Ask a question about your documents...")
 
-    if query and index and chunks and embed_model and llm:
+    if query and current_index and current_chunks and embed_model and llm:
         # Add user message to chat history
         st.session_state.messages.append({"role": "user", "content": query})
         
@@ -135,11 +176,11 @@ try:
                     query_embedding = embed_model.embed_query(query)
                     
                     # Search in FAISS
-                    distances, indices = index.search(np.array([query_embedding]), k=top_k)
+                    distances, indices = current_index.search(np.array([query_embedding]), k=top_k)
                     
                     # Retrieve chunks
                     retrieved_indices = indices[0]
-                    retrieved_chunks = [chunks[int(idx)] for idx in retrieved_indices]
+                    retrieved_chunks = [current_chunks[int(idx)] for idx in retrieved_indices]
                     
                     # Combine chunks into context
                     context = "\n\n".join(retrieved_chunks)
