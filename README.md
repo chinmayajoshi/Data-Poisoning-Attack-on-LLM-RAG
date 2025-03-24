@@ -10,12 +10,19 @@ A simple pipeline to chunk text, generate embeddings, and perform **semantic sea
 - store and retrieve chunks with **faiss**  
 - persistent storage with **faiss** index + **json**  
 
-### [TODO] **👾 Data Poisoning Attack on RAG:** 
+### 👾 [TODO] **Data Poisoning Attack on RAG:** 
 Create a **malicious .txt** file and inject it into the vectordb to **poison the knowledge** and the RAG App. 
+
+#### 📜 **todo**
+- [x] create streamlit app for user interaction
+- [x] create poisoned .txt file  
+- [ ] add poisoned .txt into vector store
+- [ ] include vector store selection (base/poison) in streamlit app
+- [ ] test data poisoning vulnerability 
 
 ---
 
-### 📦 **setup**
+### 📦 **Setup**
 
 1. **clone the repository**  
     ```bash
@@ -36,32 +43,23 @@ Create a **malicious .txt** file and inject it into the vectordb to **poison the
 
 ---
 
-### 📊 **usage**
+### 📊 **Usage**
 
 1. **add text files**: Run [create_dataset.ipynb](create_dataset.ipynb) to create a dataset from scratch.
     ```bash
-    export GROQ_API_KEY='<groq-api-key>'
+    export GROQ_API_KEY="<groq-api-key>"
     ```
 
-2. **create vectordb**:  Run 
+2. **create vectordb**:  Run [create_vectorstore.ipynb](create_vectorstore.ipynb) to generate the HuggingFace Embeddings ([intfloat/multilingual-e5-small](https://huggingface.co/intfloat/multilingual-e5-small)) and store in FAISS Vector Store.
+
+3. **run streamlit app** Run the [app.py](app.py) python script.
     ```bash
-    python main.py
+    streamlit start app.py
     ```
 
-3. **search**: enter your query, and retrieve matching text chunks.
-
 ---
 
-### 📜 **todo**
-- [ ] create streamlit app for user interaction
-- [ ] create poisoned .txt file  
-- [ ] add poisoned .txt into vector store
-- [ ] include vector store selection (base/poison) in streamlit app
-- [ ] test data poisoning vulnerability 
-
----
-
-### 🛠️ **tech stack**
+### 🛠️ **Tech stack**
 - LangChain
 - FAISS
 - Groq API
