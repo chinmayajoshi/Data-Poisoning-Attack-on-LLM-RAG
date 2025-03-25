@@ -1,4 +1,4 @@
-## Data Poisioning Attack on RAG Apps
+## Data Poisoning Attack on RAG Apps
 
 ### **📚 FAISS-based Text Search**
 A simple pipeline to chunk text, generate embeddings, and perform **semantic search** using **faiss** for fast retrieval.  
